@@ -1,3 +1,25 @@
+/*---BACKGROUND COLORS---*/
+
+.background1 {
+    background-color: grey;
+}
+
+.background2 {
+    background-color: purple;
+}
+
+.background3 {
+    background-color: yellowgreen;
+}
+
+.background4 {
+    background-color: lightgreen;
+}
+
+.background5 {
+    background-color: lightskyblue;
+}
+
 .outline {
     outline: 1px solid red;
 }
@@ -78,6 +100,12 @@
     }
 }
 
+@media (min-width: 576px) {
+    .fontsizer {
+        font-size: 1.5rem;
+    }
+}
+
 .bookatable-btn {
     width: 21%;
     position: absolute;
@@ -90,4 +118,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn {
+    border-radius: 0;
 }
