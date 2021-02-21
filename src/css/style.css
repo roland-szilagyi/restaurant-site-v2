@@ -51,6 +51,11 @@
     src: url("/src/assets/fonts/AmberWhiskey.otf");
 }
 
+/*----BACKGROUNDS----*/
+.background2 {
+    background-image: url("/src/assets/images/dobozproba.png")
+}
+
 /*----NAVIGATION----*/
 
 .bob-background {

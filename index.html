@@ -32,8 +32,8 @@
                   <a class="nav-link" href="#">
                     <i class="fas fa-book-open px-2 font-green"></i>MENÜ</a>
                   <img class="w-25 d-none d-sm-block py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
-                  <a class="nav-link" href="#">
-                    <i class="fas fa-gift px-2 font-green"></i>GIFT CARD</a>
+                  <a class="nav-link active" href="#">
+                    <i class="fas fa-phone-alt px-2 font-green" active></i>+39/ 833 58 46</a>
                   <a class="nav-link" href="#">
                     <i class="fas fa-map-marker-alt px-2 font-green"></i>LOCATIONS</a>
                 </div>
@@ -43,7 +43,7 @@
     </header>
 
     <!--WELCOME-carousel-->
-    <div id="carouselExampleControls" class="carousel slide border-top border-bottom border-secondary" data-bs-ride="carousel">
+    <section id="carouselExampleControls" class="carousel slide border-top border-bottom border-secondary" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./src/assets/images/welcome-carousel1.jpg" class="d-block w-100" alt="welcomeslide1">
@@ -54,10 +54,33 @@
           <img src="./src/assets/images/welcome-carousel2.jpg" class="d-block w-100" alt="welcomeslide2">
         </div>
       </div>
-    </div>
+    </section>
+
+    <!--CLEAN SECTION-->
+    <section class="border-bottom border-secondary container-fluid d-flex flex-column flex-md-row text-light">
+      
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-4">
+        <i class="fas fa-utensils fa-3x m-4 font-green"></i>
+        <div class="text-center m-3 fs-4 font3">100% ITALY PRODUCTS</div>
+        <span class="text-center mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolorem.</span>
+      </div>
+
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-4">
+        <i class="fas fa-users fa-3x m-4 font-green"></i>
+        <div class="text-center m-3 fs-4 font3">FRENDLY STAFF</div>
+        <span class="text-center mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, id.</span>
+      </div>
+
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-4">
+        <i class="fas fa-thumbs-up fa-3x m-4 font-green"></i>
+        <div class="text-center m-3 fs-4 font3">RELAXING ATMOSPHERE</div>
+        <span class="text-center mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, expedita.</span>
+      </div>
+    
+    </section>
 
     <!--MENÜ-->
-    <section class="border text-light d-flex container-fluid justify-content-evenly py-5" id="menü">
+    <main class="border-bottom border-secondary text-light d-flex container-fluid justify-content-evenly py-5" id="menü">
       <div class="container-fluid d-flex justify-content-around">
         
         <div class="p-2 d-flex flex-column justify-content-evenly">
@@ -115,51 +138,51 @@
         </div>
     
       </div>
-    </section>
+    </main>
 
     <!--RESERVATIONS-->
-    <aside class="border text-light d-flex container-fluid justify-content-evenly py-5" id="reservations2">
+    <aside class="border-bottom border-secondary text-light d-flex container-fluid justify-content-center align-items-center py-5" id="reservations2">
         
         <!--BALOLDAL KEP KONTENER-->
-        <section class="align-self-center d-none d-md-block p-4">
-          <img class="img-fluid" src="./src/assets/images/reserv-img.jpg" alt="foodtools">
+        <section class="align-self-center d-none d-md-block p-5">
+          <img class="img-fluid" src="./src/assets/images/reserv-img2.png" alt="foodtools">
         </section>
         
         <!--JOBB KONTENR-->
-        <section class="text-light outline container-fluid d-flex flex-column justify-content-evenly" id="reservations"><!--JOBBOLDAL KONTENER-->
+        <section class="col-md-6 text-light container-fluid d-flex flex-column justify-content-evenly" id="reservations"><!--JOBBOLDAL KONTENER-->
             
-            <div class="outline2 container-fluid text-center">
-              <h2 class="py-5 text-light font3">
+            <div class="container-fluid text-center">
+              <h2 class="pb-4 text-light font3">
                 <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATION</h2>
             </div>
 
             <!--ÜRLAP-->
-            <form class="needs-validation py-5 outline3 container-fluid d-flex align-items-center
-                         justify-content-evenly flex-column text-center col-sm-7 col-md-10 col-xl-6"
+            <form class="border p-5 rounded needs-validation container-fluid d-flex align-items-center
+                         justify-content-evenly flex-column text-center col-sm-7 col-md-10 col-xl-8"
                          action="https://formspree.io/f/xwkwjwna"
                          method="POST"
                          novalidate>
                                     
               <div class="mb-3 col-10 font-green">
-                <label for="reservationnameinput" class="form-label">Name</label>
+                <label for="reservationnameinput" class="form-label font3 fs-2">Name</label>
                 <input type="text" class="form-control text-center" id="reservationnameinput" name="name" required><!--VALIDALAS2-->
                 <div id="reservationname" class="form-text"></div>
               </div>
 
               <div class="mb-3 col-8 font-green">
-                <label for="reservationdateinput" class="form-label">Date</label>
+                <label for="reservationdateinput" class="form-label font3 fs-2">Date</label>
                 <input type="date" class="form-control text-center" id="reservationdateinput" name="date" required><!--VALIDALAS2-->
                 <div id="reservationdate" class="form-date"></div>
               </div>
 
               <div class="mb-3 font-green">
-                <label for="reservationtimeinput" class="form-label">Time</label>
+                <label for="reservationtimeinput" class="form-label font3 fs-2">Time</label>
                 <input type="time" class="form-control text-center" id="reservationtimeinput" name="time" required><!--VALIDALAS2-->
                 <div id="reservationtime" class="form-time"></div>
               </div>
 
               <div class="mb-3 font-green">
-                <label for="reservationpersoninput" class="form-label">Person</label>
+                <label for="reservationpersoninput" class="form-label font3 fs-2">Person</label>
                 <input type="number" class="form-control text-center" id="reservationpersoninput" name="person" required><!--VALIDALAS2-->
                 <div id="reservationperson" class="form-number"></div>
               </div>
@@ -167,16 +190,16 @@
               <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1">
                 <label class="btn btn-outline-success" for="btncheck1">Gluten-free</label>
+
+                <input type="checkbox" class="btn-check" id="btncheck3" disabled>
+                <label class="btn btn-outline-success" for="btncheck3">Vegan</label>
               
                 <input type="checkbox" class="btn-check" id="btncheck2">
                 <label class="btn btn-outline-success" for="btncheck2">Lactose-free</label>
-              
-                <input type="checkbox" class="btn-check" id="btncheck3">
-                <label class="btn btn-outline-success" for="btncheck3">Vegan</label>
               </div>
 
-              <div class="outline container-fluid text-center py-5">
-                <button class="btn btn-danger btn-lg" type="submit">Reserve</button>
+              <div class="container-fluid text-center pt-5">
+                <button class="btn btn-danger btn-lg" type="submit">RESERVE</button>
               </div>
             </form>
           
@@ -187,3 +210,6 @@
     <script src="./src/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+<!-- Open hours: Monday - Sunaday 8:00AM - 10:00PM-->
