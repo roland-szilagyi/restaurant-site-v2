@@ -102,18 +102,18 @@
 }
 
 /*----BACKGROUNDS----*/
-.background2 {
-    background-image: url("/src/assets/images/dobozproba.png")
-}
-
-/*----NAVIGATION----*/
 
 .bob-background {
     background-image: url("/src/assets/images/background.png");
     background-size: cover;
     height: 100%;
-    
 }
+
+.background2 {
+    background-image: url("/src/assets/images/dobozproba.png")
+}
+
+/*----MEDIA Qs----*/
 
 @media (min-width: 768px) {
     .navbar-brand {
@@ -160,8 +160,4 @@
 
 .btn {
     border-radius: 0;
-}
-
-.nna {
-    width: 10%;
 }
