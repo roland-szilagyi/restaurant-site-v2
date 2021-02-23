@@ -20,6 +20,8 @@
     background-color: lightskyblue;
 }
 
+/*---OUTLINES---*/
+
 .outline {
     outline: 1px solid red;
 }
@@ -43,15 +45,19 @@
 /*---COLORS---*/
 
 .font-green {
-    color: rgb(116,160,0)
+    color: rgb(116,160,0);
 }
 
 .font-red {
-    color: rgb(235, 42, 0)
+    color: rgb(235, 42, 0);
 }
 
 .font-yellow {
-    color: rgb(255, 221, 146)
+    color: rgb(255, 221, 146);
+}
+
+.border-grey {
+    border: 1px solid grey;
 }
 
 /*----FONTS----*/
@@ -66,6 +72,28 @@
 
 .font3 {
     font-family: "amber-whiskey-aged-regular";
+}
+
+.farm {
+    font-family: charcuterie-etched, sans-serif;
+}
+
+.nova {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nova300 {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.nova600 {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face{
@@ -87,7 +115,7 @@
     
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     .navbar-brand {
         display: none;
     }
@@ -103,6 +131,16 @@
 @media (min-width: 576px) {
     .fontsizer {
         font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 996px) {
+    .fontsizer {
+        font-size: 1.8rem;
+    }
+
+    .menu-fontsizer {
+        font-size: 1.3rem;
     }
 }
 
@@ -122,4 +160,8 @@
 
 .btn {
     border-radius: 0;
+}
+
+.nna {
+    width: 10%;
 }

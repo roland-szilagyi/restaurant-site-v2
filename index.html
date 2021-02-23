@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="./src/css/bootstrap.min.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link href="./src/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/pbr1vco.css">
 </head>
 <body class="bob-background">
     
     <!--Navigation-->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid mx-1">
-                <a class="navbar-brand fs-6" id="nav-menü" href="#menü">MENÜ</a>
-                <img class="w-50 d-sm-none py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
-                <button class="navbar-toggler fs-6" type="button" data-bs-toggle="collapse" 
+                <a class="navbar-brand fs-6 nova600 mx-2" id="nav-menü" href="#menü">MENÜ</a>
+                <img class="w-50 d-md-none py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
+                <button class="navbar-toggler fs-6 mx-2" type="button" data-bs-toggle="collapse" 
                         data-bs-target="#navbarNavAltMarkup" 
                         aria-controls="navbarNavAltMarkup" 
                         aria-expanded="false" 
@@ -27,14 +28,14 @@
               
               <div class="collapse navbar-collapse justify-content-evenly" id="navbarNavAltMarkup">
                 <div class="navbar-nav col-12 align-items-center justify-content-evenly">
-                  <a class="nav-link" aria-current="page" href="#reservations">
+                  <a class="nav-link nova600 menu-fontsizer" aria-current="page" href="#reservations">
                     <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATIONS</a>
-                  <a class="nav-link" href="#">
+                  <a class="nav-link nova600 menu-fontsizer" href="#">
                     <i class="fas fa-book-open px-2 font-green"></i>MENÜ</a>
-                  <img class="w-25 d-none d-sm-block py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
-                  <a class="nav-link active" href="#">
+                  <img class="w-25 d-none d-md-block py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
+                  <a class="nav-link nova600 menu-fontsizer active" href="#">
                     <i class="fas fa-phone-alt px-2 font-green" active></i>+39/ 833 58 46</a>
-                  <a class="nav-link" href="#">
+                  <a class="nav-link nova600 menu-fontsizer" href="#">
                     <i class="fas fa-map-marker-alt px-2 font-green"></i>LOCATIONS</a>
                 </div>
               </div>
@@ -47,7 +48,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./src/assets/images/welcome-carousel1.jpg" class="d-block w-100" alt="welcomeslide1">
-          <button type="button" class="btn btn-danger bookatable-btn"
+          <button type="button" class="btn btn-danger bookatable-btn nova600"
                   href="#reservations2">BOOK A TABLE</button> <!--skip hivatkozast igazitani-->
         </div>
         <div class="carousel-item">
@@ -57,59 +58,60 @@
     </section>
 
     <!--CLEAN SECTION-->
-    <section class="border-bottom border-secondary container-fluid d-flex flex-column flex-md-row text-light">
+    <section class="border-secondary container-fluid d-flex flex-column flex-md-row text-light py-5">
       
-      <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-2">
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-3">
         <i class="fas fa-utensils fa-3x m-4 font-green"></i>
-        <div class="text-center m-3 fs-4 font3">100% ITALY PRODUCTS</div>
-        <span class="text-center mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolorem.</span>
+        <div class="text-center m-3 fs-4 farm">100% ITALY PRODUCTS</div>
+        <span class="text-center mb-4 nova300">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolorem.</span>
       </div>
 
-      <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-4">
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-3">
         <i class="fas fa-users fa-3x m-4 font-green"></i>
-        <div class="text-center m-3 fs-4 font3">FRENDLY STAFF</div>
-        <span class="text-center mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, id.</span>
+        <div class="text-center m-3 fs-4 farm">FRENDLY STAFF</div>
+        <span class="text-center mb-4 nova300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, id.</span>
       </div>
 
-      <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-4">
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-3">
         <i class="fas fa-thumbs-up fa-3x m-4 font-green"></i>
-        <div class="text-center m-3 fs-4 font3">RELAXING ATMOSPHERE</div>
-        <span class="text-center mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, expedita.</span>
+        <div class="text-center m-3 fs-4 farm">RELAXING ATMOSPHERE</div>
+        <span class="text-center mb-4 nova300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, expedita.</span>
       </div>
     
     </section>
+    <div class="border-grey col-6 container-fluid"></div><!--vonal-->
 
     <!--MENÜ-->
-    <main class="border-bottom border-secondary text-light d-flex container-fluid justify-content-evenly py-5" id="menü">
+    <main class="text-light d-flex container-fluid justify-content-evenly py-5" id="menü">
       <div class="container-fluid d-flex justify-content-around">
         
         <div class="p-2 d-flex flex-column justify-content-evenly">
-          <h2 class="text-center font3 mb-5">
-            <i class="fas fa-book-open px-2 font-green"></i>MENU</h2>
-          <h4 class="font3">SOUPS</h4>
+          <h2 class="text-center farm m-4">
+            <i class="fas fa-book-open px-2 font-green pb-4"></i>MENÜ</h2>
+          <h4 class="farm">SOUPS</h4>
           <div class="d-flex justify-content-between">
-            <ul class="font-green list-unstyled font3 fontsizer">
+            <ul class="font-green list-unstyled nova fontsizer">
               <li>Leek and Potato Soup</li>
               <li>Basil Tomato Soup with Orzo</li>
               <li>Quick Ravioli & Spinach Soup</li>
             </ul>
-            <ul class="list-unstyled ms-3 font3 fontsizer">
+            <ul class="list-unstyled ms-3 farm fontsizer">
               <li>8€</li>
               <li>9€</li>
               <li>10€</li>
             </ul>
           </div>
     
-          <h4 class="font3">MAIN COURSE</h4>
+          <h4 class="farm">MAIN COURSE</h4>
           <div class="d-flex justify-content-between">
-            <ul class="font-green list-unstyled font3 fontsizer">
+            <ul class="nova font-green list-unstyled font3 fontsizer">
               <li>Caprese Salad with Pesto Sauce</li>
               <li>Pasta Con Pomodoro E Basilico</li>
               <li>Focaccia Bread</li>
               <li>Pasta Carbonara</li>
               <li>Mushroom Risotto</li>
             </ul>
-            <ul class="list-unstyled ms-3 font3 fontsizer">
+            <ul class="list-unstyled ms-3 farm fontsizer">
               <li>16€</li>
               <li>17€</li>
               <li>18€</li>
@@ -118,14 +120,14 @@
             </ul>
           </div>
     
-          <h4 class="font3">DESSERT</h4>
+          <h4 class="farm">DESSERT</h4>
           <div class="d-flex justify-content-between">
-            <ul class="font-green list-unstyled font3 fontsizer">
+            <ul class="font-green list-unstyled nova fontsizer">
               <li>Tiramisu</li>
               <li>Campari and Peanuts Cannoli</li>
               <li>Pear and Hazelnut Torta Caprese</li>
             </ul>
-            <ul class="list-unstyled ms-3 font3 fontsizer">
+            <ul class="list-unstyled ms-3 farm fontsizer">
               <li>6€</li>
               <li>7€</li>
               <li>8€</li>
@@ -134,56 +136,57 @@
         </div>
         
         <div class="d-flex flex-column align-self-center d-none d-md-block col-10 col-md-6">
-          <img class="img-fluid p-2" src="./src/assets/images/menu-img.png" alt="menu-table">
+          <img class="img-fluid p-5" src="./src/assets/images/menu-img.png" alt="menu-table">
         </div>
     
       </div>
     </main>
+    <div class="col-6 container-fluid border-grey"></div><!--vonal-->
 
     <!--RESERVATIONS-->
-    <aside class="border-bottom border-secondary text-light d-flex container-fluid justify-content-center align-items-center py-5" id="reservations2">
+    <aside class="text-light d-flex container-fluid justify-content-evenly align-items-center py-5" id="reservations2">
         
         <!--BALOLDAL KEP KONTENER-->
-        <section class="align-self-center d-none d-md-block p-5">
-          <img class="img-fluid" src="./src/assets/images/reserv-img2.png" alt="foodtools">
+        <section class="align-self-center col-6 d-none d-md-block p-5">
+          <img class="img-fluid" src="./src/assets/images/reserv-img.png" alt="foodtools">
         </section>
         
         <!--JOBB KONTENR-->
-        <section class="col-md-6 text-light container-fluid d-flex flex-column justify-content-evenly" id="reservations"><!--JOBBOLDAL KONTENER-->
+        <section class="col-md-6 text-light container-fluid d-flex flex-column justify-content-evenly px-1" id="reservations"><!--JOBBOLDAL KONTENER-->
             
-            <div class="container-fluid text-center">
-              <h2 class="pb-4 text-light font3">
+            <div class="container-fluid d-flex justify-content-center align-items-center">
+              <h2 class="text-light farm m-5">
                 <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATION</h2>
             </div>
 
             <!--ÜRLAP-->
-            <form class="border p-5 rounded needs-validation container-fluid d-flex align-items-center
-                         justify-content-evenly flex-column text-center col-sm-7 col-md-10 col-xl-8"
+            <form class="border-grey p-5 rounded needs-validation container-fluid d-flex align-items-center
+                         justify-content-evenly flex-column text-center col-12 col-sm-7 col-md-10 col-xl-8"
                          action="https://formspree.io/f/xwkwjwna"
                          method="POST"
                          novalidate>
                                     
-              <div class="mb-3 col-10 font-green">
-                <label for="reservationnameinput" class="form-label font3 fs-2">Name</label>
+              <div class="mb-3 col-12 font-green col-sm-10">
+                <label for="reservationnameinput" class="form-label nova fs-4">Name</label>
                 <input type="text" class="form-control text-center" id="reservationnameinput" name="name" required><!--VALIDALAS2-->
                 <div id="reservationname" class="form-text"></div>
               </div>
 
-              <div class="mb-3 col-8 font-green">
-                <label for="reservationdateinput" class="form-label font3 fs-2">Date</label>
+              <div class="mb-3 col-10 col-sm-8 col-xl-6 font-green">
+                <label for="reservationdateinput" class="form-label nova fs-4">Date</label>
                 <input type="date" class="form-control text-center" id="reservationdateinput" name="date" required><!--VALIDALAS2-->
                 <div id="reservationdate" class="form-date"></div>
               </div>
 
               <div class="mb-3 font-green">
-                <label for="reservationtimeinput" class="form-label font3 fs-2">Time</label>
+                <label for="reservationtimeinput" class="form-label nova fs-4">Time</label>
                 <input type="time" class="form-control text-center" id="reservationtimeinput" name="time" required><!--VALIDALAS2-->
                 <div id="reservationtime" class="form-time"></div>
               </div>
 
-              <div class="mb-3 font-green">
-                <label for="reservationpersoninput" class="form-label font3 fs-2">Person</label>
-                <input type="number" class="form-control text-center" id="reservationpersoninput" name="person" required><!--VALIDALAS2-->
+              <div class="mb-3 col-6 col-xl-4 font-green">
+                <label for="reservationpersoninput" class="form-label nova fs-4">Person</label>
+                <input type="number" min="0" class="form-control text-center" id="reservationpersoninput" name="person" required><!--VALIDALAS2-->
                 <div id="reservationperson" class="form-number"></div>
               </div>
 
@@ -199,44 +202,48 @@
               </div>
 
               <div class="container-fluid text-center pt-5">
-                <button class="btn btn-danger btn-lg" type="submit">RESERVE</button>
+                <button class="btn btn-danger btn-lg nova600" type="submit">RESERVE</button>
               </div>
             </form>
           
         </section>
     </aside>
+    <div class="col-6 container-fluid border-grey"></div><!--vonal-->
 
     <!--LOCATIONS-->
-    <section class="outline container-fluid d-flex flex-column p-2 text-light">
-      
-      <div class="outline2 container-fluid d-flex flex-column p-2">
-        
-        <i class="outline3 fas fa-map-marker-alt container-fluid text-center p-2 font-light">LOCATION</i>
+    <article class="container-fluid d-flex justify-content-center align-items-center">
+      <h2 class="text-light farm m-5">
+        <i class="far fas fa-map-marker-alt px-2 font-green"></i>LOCATION</h2>
+      </article>
 
-        <div class="outline3 container-fluid d-flex flex-column align-items-sm-center p-2 col-10"><!--address-->
-          <div class="font3 font-green p-4 fs-4">Adresse: 9553 Bettwiesen-CH, Bahnhofstrasse 22</div>
-          <div class="font3 font-green p-4 fs-4">Telephone: +39/ 833 58 46</div>
-          <div class="font3 font-green p-4 fs-4">email: bobszinkler@icloud.com</div>
-        </div>
+    <section class="container-fluid d-flex flex-column p-2 text-light">
+      <!--ADRESS-->
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-sm-center p-2 col-10">
+        <div class="nova600 font-green p-4 fs-4 text-center">Adresse: 9553 Bettwiesen-CH, Bahnhofstrasse 22</div>
+        <div class="nova font-green p-4 fs-4 text-center">Telephone: +39/ 833 58 46</div>
+        <div class="nova font-green p-4 fs-4 text-center">email: bobszinkler@icloud.com</div>
       </div>
-      
-      <div class="outline2 container-fluid p-2"><!--kep kontener-->
-        <img class="img-fluid" src="./src/assets/images/locations.png" alt="egy hosszu kep">
+      <!--PICTURE-->
+      <div class="container-fluid p-2">
+        <img class="img-fluid" src="./src/assets/images/locations.png" alt="location picture">
       </div>
-      
-      <div class="outline2 container-fluid d-flex flex-column p-2">
-        <div class="outline3 container-fluid text-center p-2 text-warning">Opening Hours: Monday - Sunday 8:00AM - 10:00PM</div>
+      <!--OPENING HOURS-->
+      <div class="container-fluid d-flex flex-column p-2">
+        <p class="container-fluid text-center p-2 text-warning fs-2 farm">Opening Hours:</p>
+        <p class="container-fluid text-center font-green"><strong>Monday - Sunday 8:00AM - 10:00PM</strong></p>
         
-        <div class="outline3 container-fluid d-flex p-2"><!--logo es fb,insta,twitter-->
+        <section class="outline3 container-fluid d-flex p-2"><!--logo es fb,insta,twitter-->
           
-          <img class="img-fluid col-6 p-3" src="./src/assets/images/logo.png" alt="restaurantlogo">
-          
+          <div class="container-fluid col-6 p-3">
+            <img class="img-fluid" src="./src/assets/images/logo.png" alt="restaurantlogo">
+          </div>
+
           <div class="d-flex flex-md-row container-fluid col-6 justify-content-evenly align-items-center">
             <i class="fab fa-facebook fa-3x"></i>
             <i class="fab fa-instagram fa-3x"></i>
             <i class="fab fa-twitter fa-3x"></i>
           </div>
-        </div>
+        </section>
         
         <div class="outline3 container-fluid d-flex justify-content-evenly flex-column flex-md-row col-md-10 col-xl-6 p-2">
           <div>SUBSCRIBE OUR NEWSLETTER</div>
