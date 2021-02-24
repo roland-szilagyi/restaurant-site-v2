@@ -161,3 +161,7 @@
 .btn {
     border-radius: 0;
 }
+
+.map-fixi {
+    height: 65vh;
+}
