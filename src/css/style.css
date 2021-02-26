@@ -48,6 +48,11 @@
     color: rgb(116,160,0);
 }
 
+.button-green {
+    color: rgb(116,160,0);
+    border-color: rgb(116,160,0);
+}
+
 .font-red {
     color: rgb(235, 42, 0);
 }
@@ -104,7 +109,7 @@
 /*----BACKGROUNDS----*/
 
 .bob-background {
-    background-image: url("/src/assets/images/background.png");
+    background-image: url("/src/assets/images/background2.png");
     background-size: cover;
     height: 100%;
 }

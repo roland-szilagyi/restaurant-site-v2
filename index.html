@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant-site</title>
-    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css"><!--bootstrap5-->
+    <link rel="stylesheet" href="./src/css/style.css"><!--sajatCSS-->
     <link href="./src/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/pbr1vco.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pbr1vco.css"><!--adobeFONTS-->
 </head>
 <body class="bob-background">
     <!--NAVBAR-->
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid mx-1">
-                <a class="navbar-brand fs-6 nova600 mx-2" id="nav-menü" href="#menü">MENÜ</a>
+                <a class="navbar-brand fs-6 nova300 mx-2" id="nav-menü" href="#menü">MENÜ</a>
                 <img class="w-50 d-md-none py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
                   <button class="navbar-toggler fs-6 mx-2" type="button" data-bs-toggle="collapse" 
                           data-bs-target="#navbarNavAltMarkup" 
@@ -26,14 +26,14 @@
                   </button>
                 <div class="collapse navbar-collapse justify-content-evenly" id="navbarNavAltMarkup">
                   <div class="navbar-nav col-12 align-items-center justify-content-evenly">
-                    <a class="nav-link nova600 menu-fontsizer" aria-current="page" href="#reservations">
+                    <a class="nav-link nova300 menu-fontsizer" aria-current="page" href="#reservations">
                       <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATIONS</a>
-                    <a class="nav-link nova600 menu-fontsizer" href="#menü">
+                    <a class="nav-link nova300 menu-fontsizer" href="#menü">
                       <i class="fas fa-book-open px-2 font-green"></i>MENÜ</a>
                     <img class="w-25 d-none d-md-block py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
-                    <a class="nav-link nova600 menu-fontsizer active" href="#telephone">
-                      <i class="fas fa-phone-alt px-2 font-green" active></i>+39/ 833 58 46</a>
-                    <a class="nav-link nova600 menu-fontsizer" href="#location">
+                    <a class="nav-link nova300 menu-fontsizer active" href="#phone">
+                      <i class="fas fa-phone-alt px-2 font-green"></i>+39/ 833 58 46</a>
+                    <a class="nav-link nova300 menu-fontsizer" href="#location">
                       <i class="fas fa-map-marker-alt px-2 font-green"></i>LOCATIONS</a>
                   </div>
                 </div>
@@ -46,9 +46,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./src/assets/images/welcome-carousel1.jpg" class="d-block w-100" alt="welcomeslide1">
-          <button type="button" class="btn btn-danger bookatable-btn nova600"
-                  href="#reservations">BOOK A TABLE
-          </button> <!--skip hivatkozast igazitani-->
+          <button type="button" class="btn btn-danger bookatable-btn nova600">BOOK A TABLE</button> <!--skip hivatkozast igazitani-->
         </div>
         <div class="carousel-item">
           <img src="./src/assets/images/welcome-carousel2.jpg" class="d-block w-100" alt="welcomeslide2">
@@ -78,6 +76,7 @@
       </div>
     
     </section>
+
     <div class="border-grey col-6 container-fluid"></div><!--vonal-->
 
     <!--MENÜ-->
@@ -87,30 +86,30 @@
         <div class="p-2 d-flex flex-column justify-content-evenly">
           <h2 class="text-center farm m-4">
             <i class="fas fa-book-open px-2 font-green pb-4"></i>MENÜ</h2>
-          <h4 class="farm">SOUPS</h4>
+          <h4 class="farm fs-2">SOUPS</h4>
           <div class="d-flex justify-content-between">
-            <ul class="font-green list-unstyled nova fontsizer">
+            <ul class="font-green list-unstyled nova600 fontsizer">
               <li>Leek and Potato Soup</li>
               <li>Basil Tomato Soup with Orzo</li>
               <li>Quick Ravioli & Spinach Soup</li>
             </ul>
-            <ul class="list-unstyled ms-3 nova fontsizer">
+            <ul class="list-unstyled ms-3 nova300 fontsizer">
               <li>8€</li>
               <li>9€</li>
               <li>10€</li>
             </ul>
           </div>
     
-          <h4 class="farm">MAIN COURSE</h4>
+          <h4 class="farm fs-2">MAIN COURSE</h4>
           <div class="d-flex justify-content-between">
-            <ul class="nova font-green list-unstyled font3 fontsizer">
+            <ul class="nova600 font-green list-unstyled font3 fontsizer">
               <li>Caprese Salad with Pesto Sauce</li>
               <li>Pasta Con Pomodoro E Basilico</li>
               <li>Focaccia Bread</li>
               <li>Pasta Carbonara</li>
               <li>Mushroom Risotto</li>
             </ul>
-            <ul class="list-unstyled ms-3 nova fontsizer">
+            <ul class="list-unstyled ms-3 nova300 fontsizer">
               <li>16€</li>
               <li>17€</li>
               <li>18€</li>
@@ -119,14 +118,14 @@
             </ul>
           </div>
     
-          <h4 class="farm">DESSERT</h4>
+          <h4 class="farm fs-2">DESSERT</h4>
           <div class="d-flex justify-content-between">
-            <ul class="font-green list-unstyled nova fontsizer">
+            <ul class="font-green list-unstyled nova600 fontsizer">
               <li>Tiramisu</li>
               <li>Campari and Peanuts Cannoli</li>
               <li>Pear and Hazelnut Torta Caprese</li>
             </ul>
-            <ul class="list-unstyled ms-3 nova fontsizer">
+            <ul class="list-unstyled ms-3 nova300 fontsizer">
               <li>6€</li>
               <li>7€</li>
               <li>8€</li>
@@ -140,21 +139,35 @@
     
       </div>
     </main>
+    
     <div class="col-6 container-fluid border-grey"></div><!--vonal-->
 
     <!--RESERVATIONS-->
     <aside class="text-light d-flex container-fluid justify-content-evenly align-items-center py-5" id="reservations">
         
         <!--BALOLDAL KEP KONTENER-->
-        <section class="align-self-center col-6 d-none d-md-block p-5">
-          <img class="img-fluid" src="./src/assets/images/reserv-img.png" alt="foodtools">
-        </section>
+        <aside class="px-4 py-5 container-fluid d-none col-md-5 d-md-block d-flex flex-column justify-content-center align-items-center">
+          <section class="p-1">
+            <div class="nova300">Our restaurants are open 365 days a year. Come without any booking and we will seat you as fast as possible
+              One Plate Italy, is more than a restaurant, above all it is a love story
+              that we wish to share with you!
+              An innovative spirit, keeping in mind the real values,
+              We care for the environment and respect the products,
+              Whatever your desires and your budget are,
+              an amicable and family-friendly atmosphere awaits you,
+              It is our pleasure to welcome you</div>
+          </section>
+          <section class="p-1">
+            <img class="img-fluid" src="./src/assets/images/reserv-img.png" alt="foodtools">
+          </section>
+          
+        </aside>
         
         <!--JOBB KONTENR-->
-        <section class="col-md-6 text-light container-fluid d-flex flex-column justify-content-evenly px-1" id="reservations"><!--JOBBOLDAL KONTENER-->
+        <section class="col-md-7 text-light container-fluid d-flex flex-column justify-content-evenly px-1">
             
             <div class="container-fluid d-flex justify-content-center align-items-center">
-              <h2 class="text-light farm m-5">
+              <h2 class="text-light farm mb-5">
                 <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATION</h2>
             </div>
 
@@ -166,38 +179,38 @@
                          novalidate>
                                     
               <div class="mb-3 col-12 font-green col-sm-10">
-                <label for="reservationnameinput" class="form-label nova fs-4">Name</label>
+                <label for="reservationnameinput" class="form-label nova600 fs-5">Name</label>
                 <input type="text" class="form-control text-center" id="reservationnameinput" name="name" required><!--VALIDALAS2-->
                 <div id="reservationname" class="form-text"></div>
               </div>
 
               <div class="mb-3 col-10 col-sm-8 col-xl-6 font-green">
-                <label for="reservationdateinput" class="form-label nova fs-4">Date</label>
+                <label for="reservationdateinput" class="form-label nova600 fs-5">Date</label>
                 <input type="date" class="form-control text-center" id="reservationdateinput" name="date" required><!--VALIDALAS2-->
                 <div id="reservationdate" class="form-date"></div>
               </div>
 
               <div class="mb-3 font-green">
-                <label for="reservationtimeinput" class="form-label nova fs-4">Time</label>
+                <label for="reservationtimeinput" class="form-label nova600 fs-5">Time</label>
                 <input type="time" class="form-control text-center" id="reservationtimeinput" name="time" required><!--VALIDALAS2-->
                 <div id="reservationtime" class="form-time"></div>
               </div>
 
               <div class="mb-3 col-6 col-xl-4 font-green">
-                <label for="reservationpersoninput" class="form-label nova fs-4">Person</label>
+                <label for="reservationpersoninput" class="form-label nova600 fs-5">Person</label>
                 <input type="number" min="0" class="form-control text-center" id="reservationpersoninput" name="person" required><!--VALIDALAS2-->
                 <div id="reservationperson" class="form-number"></div>
               </div>
 
               <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1">
-                <label class="btn btn-outline-success" for="btncheck1">Gluten-free</label>
+                <label class="btn btn-outline-success button-green nova600" for="btncheck1">Gluten-free</label>
 
                 <input type="checkbox" class="btn-check" id="btncheck3" disabled>
-                <label class="btn btn-outline-success" for="btncheck3">Vegan</label>
+                <label class="btn btn-outline-success button-green nova600" for="btncheck3">Vegan</label>
               
                 <input type="checkbox" class="btn-check" id="btncheck2">
-                <label class="btn btn-outline-success" for="btncheck2">Lactose-free</label>
+                <label class="btn btn-outline-success button-green nova600" for="btncheck2">Lactose-free</label>
               </div>
 
               <div class="container-fluid text-center pt-5">
@@ -217,39 +230,56 @@
 
     <section class="container-fluid d-flex flex-column p-2 text-light">
       <!--ADRESS-->
-      <div class="container-fluid d-flex flex-column flex-md-row justify-content-center align-items-center p-2">
+      <div class="container-fluid d-flex flex-column flex-md-row justify-content-evenly align-items-center p-2">
         <div class="border-grey d-flex flex-column justify-content-center">
-          <div class="nova600 font-green p-4 fs-4 text-center">Adresse: 9553 Bettwiesen-CH, Bahnhofstrasse 22</div>
-          <div class="nova font-green p-4 fs-4 text-center" id="telephone">Telephone: +39/ 833 58 46</div>
-          <a class="nova font-green p-4 fs-4 text-center" href = "mailto: abc@example.com">Email: bobszinkler@icloud.com</a>
           <p class="container-fluid text-center p-2 text-warning fs-1 farm"><ins>Opening Hours:</ins></p>
-          <p class="container-fluid text-center font-green"><strong>Monday - Sunday 8:00AM - 10:00PM</strong></p>
+          <h4 class="container-fluid text-center text-light nova300">Monday - Sunday</h4>
+          <p class="container-fluid text-center font-green nova600">8:00am - 10:00pm</p>
+          <h4 class="container-fluid text-center text-light nova300">Adress:</h4>
+          <p class="container-fluid text-center font-green nova600">9553 Bettwiesen-CH, Bahnhofstrasse 22</p>
         </div>
         <!--TERKEP-->
-        <aside class="d-flex justify-content-center map-fixi">
+        <aside class="d-flex justify-content-center map-fixi col-md-8">
           <iframe class="img-fluid p-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43617.43912887246!2d9.021505865188477!3d47.453023458517386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aebd0d8ae37bd%3A0xd38e791063031e1b!2zTWNEb25hbGTigJlz!5e0!3m2!1shu!2sch!4v1614149539022!5m2!1shu!2sch"
-          width="1366" height="1024" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          width="1366" height="850" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </aside>
       </div>
+    </section>
+
+    <div class="col-6 container-fluid border-grey"></div><!--vonal-->
+
+    <article class="container-fluid d-flex justify-content-center align-items-center">
+      <h2 class="text-light farm m-5">
+        <i class="fas fa-phone-alt px-2 font-green"></i>CONTACT</h2>
+    </article>
+    <!--PHONE AND MAIL-->
+    <section class="d-flex flex-column container-fluid justify-content-center flex-md-row align-items-center">
+      <div class="nova container-fluid d-flex justify-content-center text-light">
+        <div class="farm fs-2" id="phone">Phone:</div>
+        <p class="font-green fs-4 nova600">+39/ 833 58 46</p>
+      </div>
+      <div class="nova container-fluid d-flex justify-content-center text-light">
+        <div class="farm fs-2">Email:</div>
+        <a class="font-green fs-4 nova600" href = "mailto:abc@example.com">bobszinkler@icloud.com</a>
+      </div>
+      </section>
+
+    <section class="container-fluid d-flex flex-column p-2 text-light py-5">
       <!--PICTURE-->
       <div class="container-fluid p-2">
         <img class="img-fluid" src="./src/assets/images/locations.png" alt="location picture">
       </div>
         
         <section class="container-fluid d-flex p-2"><!--logo es fb,insta,twitter-->
-          
-          <div class="container-fluid col-6 p-3">
-            <img class="img-fluid" src="./src/assets/images/logo.png" alt="restaurantlogo">
-          </div>
 
-          <div class="d-flex flex-md-row container-fluid col-6 justify-content-evenly align-items-center">
-            <i class="fab fa-facebook fa-3x"></i>
-            <i class="fab fa-instagram fa-3x"></i>
-            <i class="fab fa-twitter fa-3x"></i>
+          <div class="d-flex col-8 col-sm-6 flex-md-row container-fluid col-md-4 justify-content-evenly align-items-center py-4">
+            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
           </div>
         </section>
         
-        <div class="outline3 container-fluid d-flex justify-content-evenly flex-column flex-md-row col-md-10 col-xl-6 p-2">
+        <div class="container-fluid d-flex justify-content-evenly flex-column flex-md-row col-md-10 col-xl-6 p-2">
           <div>SUBSCRIBE OUR NEWSLETTER</div>
           <form>
             <label for="newsletter">
@@ -260,7 +290,6 @@
             </label>
           </form>
         </div>
-      </div>
     
     </section>
 
