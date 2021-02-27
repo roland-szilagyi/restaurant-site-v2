@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant-site</title>
     <link href="./src/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="./src/css/bootstrap.min.css"><!--bootstrap5-->
-    <link rel="stylesheet" href="./src/css/style.css"><!--sajatCSS-->
-    <link rel="stylesheet" href="https://use.typekit.net/pbr1vco.css"><!--adobeFONTS-->
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pbr1vco.css">
     
 </head>
 <body class="bobbackground">
@@ -145,28 +145,28 @@
     <div class="col-6 container-fluid border-grey"></div><!--vonal-->
 
     <!--RESERVATIONS-->
-    <aside class="text-light d-flex container-fluid justify-content-evenly align-items-center py-5" id="reservations">
+    <aside class="text-light d-flex container-fluid justify-content-center py-5" id="reservations">
         
         <!--BALOLDAL KEP KONTENER-->
-        <aside class="px-4 py-5 container-fluid d-none col-md-5 d-md-block d-flex flex-column justify-content-center align-items-center">
-          <section class="p-1">
-            <div class="nova300">Our restaurants are open 365 days a year. Come without any booking and we will seat you as fast as possible
+        <aside class="px-5 py-5 container-fluid d-none col-md-6 d-md-block d-flex flex-column justify-content-center align-items-center">
+          <section class="pb-5">
+            <div class="nova300 fs-5">"Our restaurants are open 365 days a year. Come without any booking and we will seat you as fast as possible
               One Plate Italy, is more than a restaurant, above all it is a love story
               that we wish to share with you!
               An innovative spirit, keeping in mind the real values,
               We care for the environment and respect the products,
               Whatever your desires and your budget are,
               an amicable and family-friendly atmosphere awaits you,
-              It is our pleasure to welcome you</div>
+              It is our pleasure to welcome you" - Luigia</div>
           </section>
           <section class="p-1">
-            <img class="img-fluid" src="./src/assets/images/reserv-img.png" alt="foodtools">
+            <img class="img-fluid border-grey" src="./src/assets/images/reserv-img.png" alt="foodtools">
           </section>
           
         </aside>
         
         <!--JOBB KONTENR-->
-        <section class="col-md-7 text-light container-fluid d-flex flex-column justify-content-evenly px-1">
+        <section class="col-md-6text-light container-fluid d-flex flex-column justify-content-evenly ">
             
             <div class="container-fluid d-flex justify-content-center align-items-center">
               <h2 class="text-light farm m-3 pb-5">
@@ -174,32 +174,34 @@
             </div>
 
             <!--ÜRLAP-->
-            <form class="border-grey p-5 bg-light rounded needs-validation container-fluid d-flex align-items-center
+            <form class="border-grey p-5 bg-dark bg-gradient rounded needs-validation container-fluid d-flex align-items-center
                          justify-content-evenly flex-column text-center col-10 col-sm-7 col-md-10 col-xl-8"
                          action="https://formspree.io/f/xwkwjwna"
                          method="POST"
                          novalidate>
                                     
+              <img class="w-100 mb-3 border-bottom py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
+
               <div class="mb-3 col-12 font-green col-sm-10">
-                <label for="reservationnameinput" class="form-label nova600 fs-5">Name</label>
+                <label for="reservationnameinput" class="text-shadow form-label nova600 fs-5">Name</label>
                 <input type="text" class="form-control text-center" id="reservationnameinput" name="name" required><!--VALIDALAS2-->
                 <div id="reservationname" class="form-text"></div>
               </div>
 
               <div class="mb-3 col-10 col-sm-8 col-xl-6 font-green">
-                <label for="reservationdateinput" class="form-label nova600 fs-5">Date</label>
+                <label for="reservationdateinput" class="text-shadow form-label nova600 fs-5">Date</label>
                 <input type="date" class="form-control text-center" id="reservationdateinput" name="date" required><!--VALIDALAS2-->
                 <div id="reservationdate" class="form-date"></div>
               </div>
 
               <div class="mb-3 font-green">
-                <label for="reservationtimeinput" class="form-label nova600 fs-5">Time</label>
+                <label for="reservationtimeinput" class="text-shadow form-label nova600 fs-5">Time</label>
                 <input type="time" class="form-control text-center" id="reservationtimeinput" name="time" required><!--VALIDALAS2-->
                 <div id="reservationtime" class="form-time"></div>
               </div>
 
               <div class="mb-3 col-6 col-xl-4 font-green">
-                <label for="reservationpersoninput" class="form-label nova600 fs-5">Person</label>
+                <label for="reservationpersoninput" class="text-shadow form-label nova600 fs-5">Person</label>
                 <input type="number" min="0" class="form-control text-center" id="reservationpersoninput" name="person" required><!--VALIDALAS2-->
                 <div id="reservationperson" class="form-number"></div>
               </div>
@@ -232,10 +234,13 @@
       <div class="container-fluid d-flex flex-column flex-md-row justify-content-evenly align-items-center p-2">
         <div class="border-grey d-flex flex-column justify-content-center">
           <p class="container-fluid text-center p-2 text-warning fs-1 farm"><ins>Opening Hours:</ins></p>
+          
           <h4 class="container-fluid text-center text-light nova300">Monday - Sunday</h4>
           <p class="container-fluid text-center font-green nova600">8:00am - 10:00pm</p>
           <h4 class="container-fluid text-center text-light nova300">Adress:</h4>
           <p class="container-fluid text-center font-green nova600">9553 Bettwiesen-CH, Bahnhofstrasse 22</p>
+          <div class="fluid-container text-center pb-3">
+            <img class="mg-size" src="./src/assets/images/michelin-guide.png" alt="michelinguide2020"></div>
         </div>
         <!--TERKEP-->
         <aside class="d-flex justify-content-center map-fixi col-md-8">
@@ -279,7 +284,7 @@
         </section>
         
         <div class="container-fluid d-flex justify-content-evenly flex-column flex-md-row col-md-10 col-xl-6 p-2">
-          <div>SUBSCRIBE OUR NEWSLETTERz</div>
+          <div>SUBSCRIBE OUR NEWSLETTER</div>
           <form>
             <label for="newsletter">
               <input class="form-label" type="email" name="newsletter" id="newsletter" placeholder="sample@email.com" required>
@@ -291,6 +296,10 @@
         </div>
     
     </section>
+
+    <footer class="p-4 text-center text-light bg-dark">
+      <span class="pb-0 fs-6">&copy; 2021 - Roland Szilágyi &copy; All Rights Reserved</span>
+    </footer>
 
     <script src="./src/js/validate.js"></script>
     <script src="./src/js/bootstrap.bundle.min.js"></script>
