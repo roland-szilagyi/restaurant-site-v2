@@ -1,3 +1,7 @@
+.map {
+    filter: grayscale(15%) contrast(90%);
+}
+
 /*---BACKGROUND COLORS---*/
 
 .background1 {
