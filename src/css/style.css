@@ -114,6 +114,12 @@
     height: 100%;
 }
 
+.bb-bck {
+    background-image: url("/src/assets/images/background.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
 /*----MEDIA Qs----*/
 
 @media (min-width: 768px) {
