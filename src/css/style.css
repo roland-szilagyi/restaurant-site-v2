@@ -109,7 +109,7 @@
 /*----BACKGROUNDS----*/
 
 .bob-background {
-    background-image: url("/src/assets/images/background.png");
+    background-image: url("../assets/images/background.png");
     background-size: cover;
     height: 100%;
 }
