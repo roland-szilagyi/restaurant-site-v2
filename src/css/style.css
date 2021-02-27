@@ -115,7 +115,7 @@
 }
 
 .bb-bck {
-    background-image: url("/src/assets/images/background.jpg");
+    background-image: url("https://github.com/roland-szilagyi/restaurant-site-v2/blob/main/src/assets/images/background.png");
     background-size: cover;
     height: 100%;
 }
