@@ -108,8 +108,8 @@
 
 /*----BACKGROUNDS----*/
 
-.bob-background {
-    background-image: url("../assets/images/background.PNG");
+.bobbackground {
+    background: url("../assets/images/background.PNG");
     background-size: cover;
     height: 100%;
 }
