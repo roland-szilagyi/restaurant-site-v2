@@ -109,13 +109,9 @@
 /*----BACKGROUNDS----*/
 
 .bob-background {
-    background-image: url("/src/assets/images/background2.png");
+    background-image: url("/src/assets/images/background.png");
     background-size: cover;
     height: 100%;
-}
-
-.background2 {
-    background-image: url("/src/assets/images/dobozproba.png")
 }
 
 /*----MEDIA Qs----*/
