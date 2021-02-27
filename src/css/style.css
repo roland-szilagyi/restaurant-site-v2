@@ -109,13 +109,7 @@
 /*----BACKGROUNDS----*/
 
 .bob-background {
-    background-image: url("../assets/images/background.png");
-    background-size: cover;
-    height: 100%;
-}
-
-.bb-bck {
-    background-image: url("https://github.com/roland-szilagyi/restaurant-site-v2/blob/main/src/assets/images/background.png");
+    background-image: url("../assets/images/background.PNG");
     background-size: cover;
     height: 100%;
 }
