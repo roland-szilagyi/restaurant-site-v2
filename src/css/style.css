@@ -2,59 +2,50 @@
     filter: grayscale(15%) contrast(90%);
 }
 
-/*---BACKGROUND COLORS---*/
+/*----BACKGROUNDS----*/
 
-.background1 {
-    background-color: grey;
+.main-background {
+    background: url("../assets/images/background.jpg");
+    background-size: cover;
+    height: 100%;
 }
 
-.background2 {
-    background-color: purple;
+.text-shadow {
+    text-shadow:1px 1px black;
 }
 
-.background3 {
-    background-color: yellowgreen;
-}
-
-.background4 {
-    background-color: lightgreen;
-}
-
-.background5 {
-    background-color: lightskyblue;
-}
-
-/*---OUTLINES---*/
-
-.outline {
-    outline: 1px solid red;
-}
-
-.outline2 {
-    outline: 1px solid green;
-}
-
-.outline3 {
-    outline: 1px solid purple;
-}
-
-.outline4 {
-    outline: 1px solid blue;
-}
-
-.outline5 {
-    outline: 1px solid yellow;
+.mg-size {
+    height: 7rem;
 }
 
 /*---COLORS---*/
 
-.font-green {
-    color: rgb(116,160,0);
+.italy-btn-green {
+    border-color: rgb(116,160,0);
+}
+
+.italy-btn-green:hover {
+    background-color: rgb(116,160,0);
+    color: white;
+}
+
+.italy-btn-red:hover {
+    background-color: rgb(116,160,0);
+    color: white;
 }
 
 .button-green {
     color: rgb(116,160,0);
     border-color: rgb(116,160,0);
+}
+
+.button-red {
+    color: white;
+    background-color: rgb(180, 42, 0);
+}
+
+.font-green {
+    color: rgb(116,160,0);
 }
 
 .font-red {
@@ -110,22 +101,6 @@
     src: url("/src/assets/fonts/AmberWhiskey.otf");
 }
 
-/*----BACKGROUNDS----*/
-
-.bobbackground {
-    background: url("../assets/images/background.jpg");
-    background-size: cover;
-    height: 100%;
-}
-
-.text-shadow {
-    text-shadow:1px 1px black;
-}
-
-.mg-size {
-    height: 7rem;
-}
-
 /*----MEDIA Qs----*/
 
 @media (min-width: 768px) {
@@ -147,13 +122,19 @@
     }
 }
 
-@media (min-width: 996px) {
+@media (min-width: 992px) {
     .fontsizer {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .menu-fontsizer {
         font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .fontsizer {
+        font-size: 1.5rem;
     }
 }
 

@@ -11,12 +11,11 @@
     <link rel="stylesheet" href="https://use.typekit.net/pbr1vco.css">
     
 </head>
-<body class="bobbackground">
-    <!--NAVBAR-->
+<body class="main-background">
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <div class="container-fluid mx-1">
-                <a class="navbar-brand fs-6 nova300 mx-2" id="nav-menü" href="#menü">MENÜ</a>
+            <section class="container-fluid mx-1">
+                <a class="navbar-brand mx-2 fs-6 nova300" id="nav-menü" href="#menü">MENÜ</a>
                 <img class="w-50 d-md-none py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
                   <button class="navbar-toggler fs-6 mx-2" type="button" data-bs-toggle="collapse" 
                           data-bs-target="#navbarNavAltMarkup" 
@@ -38,27 +37,23 @@
                       <i class="fas fa-map-marker-alt px-2 font-green"></i>LOCATIONS</a>
                   </div>
                 </div>
-            </div>
+              </section>
         </nav>
     </header>
-
     <!--WELCOME-carousel-->
     <aside id="carouselExampleControls" class="carousel slide border-top border-bottom border-secondary" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./src/assets/images/welcome-carousel1.jpg" class="d-block w-100" alt="welcomeslide1">
-          <a href="#reservations"><button type="button" class="btn btn-danger bookatable-btn nova600">BOOK A TABLE</button></a> <!--skip hivatkozast igazitani-->
+          <a href="#reservations"><button type="button" class="btn button-green italy-btn-green bookatable-btn nova300">BOOK A TABLE</button></a>
         </div>
-        <a href="#"><button>Text</button></a>
         <div class="carousel-item">
           <img src="./src/assets/images/welcome-carousel2.jpg" class="d-block w-100" alt="welcomeslide2">
         </div>
       </div>
     </aside>
-
     <!--CLEAN SECTION-->
-    <section class="border-secondary container-fluid d-flex flex-column flex-md-row text-light py-5">
-      
+    <section class="container-fluid d-flex flex-column flex-md-row text-light py-4">
       <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-3">
         <i class="fas fa-utensils fa-2x m-4 font-green"></i>
         <div class="text-center m-3 fs-4 farm">100% ITALY PRODUCTS</div>
@@ -76,22 +71,18 @@
         <div class="text-center m-3 fs-4 farm">RELAXING ATMOSPHERE</div>
         <span class="text-center mb-4 nova300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, expedita.</span>
       </div>
-    
     </section>
-
-    <div class="border-grey col-6 container-fluid"></div><!--vonal-->
-
+    <aside class="border-grey col-6 container-fluid"></aside>
     <!--MENÜ-->
-    <main class="text-light d-flex container-fluid justify-content-evenly py-5" id="menü">
-      <div class="container-fluid d-flex justify-content-around">
-        
-        <div class="p-1 d-flex flex-column justify-content-evenly">
-          <h2 class="text-center farm m-3 pb-4">
-            <i class="fas fa-book-open px-2 font-green"></i>MENÜ</h2>
+    <main class="container-fluid d-flex flex-column justify-content-evenly text-light py-5" id="menü">
+      <h2 class="text-center farm m-3 pb-5">
+        <i class="fas fa-book-open px-2 font-green"></i>MENÜ</h2>
+      <div class="container-fluid d-flex justify-content-around px-3">
+        <div class="d-flex flex-column justify-content-evenly col-12 col-sm-10 col-md-8 col-lg-5 p-1">
           
-            <h4 class="farm fs-2">APPETIZERS</h4>
+          <h4 class="farm fs-4">APPETIZERS</h4>
           <div class="d-flex justify-content-between">
-            <ul class="font-green list-unstyled nova600 fontsizer">
+            <ul class="list-unstyled nova600 fontsizer font-green">
               <li>Beef Spiedini</li>
               <li>Italian Meetball Buns</li>
               <li>Focaccia Barese</li>
@@ -102,10 +93,9 @@
               <li>10€</li>
             </ul>
           </div>
-
-            <h4 class="farm fs-2">SOUPS</h4>
+          <h4 class="farm fs-4">SOUPS</h4>
           <div class="d-flex justify-content-between">
-            <ul class="font-green list-unstyled nova600 fontsizer">
+            <ul class="list-unstyled nova600 fontsizer font-green">
               <li>Leek and Potato Soup</li>
               <li>Basil Tomato Soup with Orzo</li>
               <li>Quick Ravioli & Spinach Soup</li>
@@ -116,10 +106,9 @@
               <li>6€</li>
             </ul>
           </div>
-    
-          <h4 class="farm fs-2">MAIN COURSE</h4>
+          <h4 class="farm fs-4">MAIN COURSE</h4>
           <div class="d-flex justify-content-between">
-            <ul class="nova600 font-green list-unstyled font3 fontsizer">
+            <ul class="list-unstyled nova600 fontsizer font-green">
               <li>Caprese Salad with Pesto Sauce</li>
               <li>Pasta Con Pomodoro E Basilico</li>
               <li>Focaccia Bread</li>
@@ -134,13 +123,12 @@
               <li>20€</li>
             </ul>
           </div>
-    
-          <h4 class="farm fs-2">DESSERT</h4>
+          <h4 class="farm fs-4">DESSERT</h4>
           <div class="d-flex justify-content-between">
-            <ul class="font-green list-unstyled nova600 fontsizer">
+            <ul class="list-unstyled nova600 fontsizer font-green">
               <li>Tiramisu</li>
-              <li>Campari and Peanuts Cannoli</li>
-              <li>Pear and Hazelnut Torta Caprese</li>
+              <li>Peanuts Cannoli</li>
+              <li>Hazelnut Torta Caprese</li>
             </ul>
             <ul class="list-unstyled ms-3 nova300 fontsizer">
               <li>6€</li>
@@ -149,93 +137,83 @@
             </ul>
           </div>
         </div>
-        
-        <div class="d-flex flex-column align-self-center d-none d-md-block col-10 col-md-6">
-          <img class="img-fluid p-5" src="./src/assets/images/menu-img.png" alt="menu-table">
+        <div class="d-flex flex-column align-self-center d-none d-lg-block col-lg-5">
+          <img class="img-fluid p-1" src="./src/assets/images/menu-img.png" alt="menu-table">
         </div>
-    
       </div>
     </main>
-    
-    <div class="col-6 container-fluid border-grey"></div><!--vonal-->
-
+    <aside class="col-6 container-fluid border-grey"></aside>
     <!--RESERVATIONS-->
-    <aside class="text-light d-flex container-fluid justify-content-center py-5" id="reservations">
-        
+    <section class="container-fluid d-flex justify-content-center text-light py-5" id="reservations">
         <!--BALOLDAL KEP KONTENER-->
-        <aside class="px-5 py-5 container-fluid d-none col-md-6 d-md-block d-flex flex-column justify-content-center align-items-center">
-          <section class="pb-5">
-            <div class="nova300 fs-5">"Our restaurants are open 365 days a year. Come without any booking and we will seat you as fast as possible
+        <aside class="container-fluid d-flex flex-column justify-content-center align-items-center d-none d-lg-block col-lg-6 p-5">
+          <section class="container-fluid col-11">
+            <p class="nova300 pb-3 fs-5">"Our restaurants are open 365 days a year. Come without any booking and we will seat you as fast as possible
               One Plate Italy, is more than a restaurant, above all it is a love story
               that we wish to share with you!
               An innovative spirit, keeping in mind the real values,
               We care for the environment and respect the products,
               Whatever your desires and your budget are,
               an amicable and family-friendly atmosphere awaits you,
-              It is our pleasure to welcome you" - Luigia</div>
+              It is our pleasure to welcome you" - Luigia</p>
           </section>
-          <section class="p-1">
-            <img class="img-fluid border-grey" src="./src/assets/images/reserv-img.png" alt="foodtools">
+          <section class="container-fluid p-1 col-8">
+            <img class="img-fluid border border-5" src="./src/assets/images/reserv-img.png" alt="drinks">
           </section>
-          
         </aside>
-        
         <!--JOBB KONTENR-->
-        <section class="col-md-6text-light container-fluid d-flex flex-column justify-content-evenly ">
-            
+        <section class="container-fluid d-flex flex-column justify-content-evenly col-md-6 text-light">
             <div class="container-fluid d-flex justify-content-center align-items-center">
-              <h2 class="text-light farm m-3 pb-5">
+              <h2 class="farm m-3 pb-5 text-light">
                 <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATION</h2>
             </div>
-
             <!--ÜRLAP-->
-            <form class="border-top border-bottom p-5 bg-dark bg-gradient rounded needs-validation container-fluid d-flex align-items-center
-                         justify-content-evenly flex-column text-center col-10 col-sm-7 col-md-10 col-xl-8"
+            <form class="container-fluid d-flex flex-column justify-content-evenly align-items-center border-top border-bottom
+                        text-center col-10 col-sm-7 col-md-10 col-xl-8 px-4 pt-3 pb-5 bg-dark bg-gradient rounded needs-validation"
                          action="https://formspree.io/f/xwkwjwna"
                          method="POST"
                          novalidate>
-                                    
               <img class="w-100 mb-3 border-bottom py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
 
               <div class="mb-3 col-12 col-sm-10">
                 <label for="reservationnameinput" class="text-shadow form-label nova300 fs-5">Name</label>
-                <input type="text" class="form-control text-center" id="reservationnameinput" name="name" required><!--VALIDALAS2-->
+                <input type="text" class="form-control text-center" id="reservationnameinput" name="name" required>
                 <div id="reservationname" class="form-text"></div>
               </div>
 
               <div class="mb-3 col-10 col-sm-8 col-xl-6">
                 <label for="reservationdateinput" class="text-shadow form-label nova300 fs-5">Date</label>
-                <input type="date" class="form-control text-center" id="reservationdateinput" name="date" required><!--VALIDALAS2-->
+                <input type="date" class="form-control text-center" id="reservationdateinput" name="date" required>
                 <div id="reservationdate" class="form-date"></div>
               </div>
 
-              <div class="mb-3">
+              <div class="mb-3 col-6 col-md-4">
                 <label for="reservationtimeinput" class="text-shadow form-label nova300 fs-5">Time</label>
-                <input type="time" class="form-control text-center" id="reservationtimeinput" name="time" required><!--VALIDALAS2-->
+                <input type="time" class="form-control text-center" id="reservationtimeinput" name="time" required>
                 <div id="reservationtime" class="form-time"></div>
               </div>
 
               <div class="mb-3 col-6 col-xl-4">
                 <label for="reservationpersoninput" class="text-shadow form-label nova300 fs-5">Person</label>
-                <input type="number" min="0" class="form-control text-center" id="reservationpersoninput" name="person" required><!--VALIDALAS2-->
+                <input type="number" min="0" class="form-control text-center" id="reservationpersoninput" name="person" required>
                 <div id="reservationperson" class="form-number"></div>
               </div>
 
               <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic checkbox toggle button group">
                 <input type="checkbox" class="btn-check" id="btncheck1">
-                <label class="btn btn-outline-success button-green nova600" for="btncheck1">Gluten-free</label>
+                <label class="btn italy-btn-green button-green nova300" for="btncheck1">Gluten-free</label>
               
                 <input type="checkbox" class="btn-check" id="btncheck2">
-                <label class="btn btn-outline-success button-green nova600" for="btncheck2">Lactose-free</label>
+                <label class="btn italy-btn-green button-green nova300" for="btncheck2">Lactose-free</label>
               </div>
 
               <div class="container-fluid text-center pt-5">
-                <button class="btn btn-danger btn-lg nova600" type="submit">RESERVE</button>
+                <button class="btn italy-btn-red button-red btn-lg nova600" type="submit">RESERVE</button>
               </div>
             </form>
           
         </section>
-    </aside>
+      </section>
     <div class="col-6 container-fluid border-grey"></div><!--vonal-->
 
     <!--LOCATIONS-->
