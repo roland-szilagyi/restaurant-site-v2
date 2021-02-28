@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant-site</title>
+    <title>One Plate Italy.Restaurant-site</title>
     <link href="./src/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/bootstrap.min.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/pbr1vco.css">
-    
 </head>
 <body class="main-background">
     <header>
@@ -40,7 +39,7 @@
               </section>
         </nav>
     </header>
-    <!--WELCOME-carousel-->
+    <!--WELCOME-->
     <aside id="carouselExampleControls" class="carousel slide border-top border-bottom border-secondary" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -52,24 +51,22 @@
         </div>
       </div>
     </aside>
-    <!--CLEAN SECTION-->
+    <!--CLEAN-->
     <section class="container-fluid d-flex flex-column flex-md-row text-light py-4">
       <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-3">
         <i class="fas fa-utensils fa-2x m-4 font-green"></i>
-        <div class="text-center m-3 fs-4 farm">100% ITALY PRODUCTS</div>
-        <span class="text-center mb-4 nova300">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolorem.</span>
+        <div class="text-center m-3 fs-4 farm">100% ITALIAN PRODUCTS</div>
+        <span class="text-center mb-4 nova300 fontsizer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolorem.</span>
       </div>
-
       <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-3">
         <i class="fas fa-users fa-2x m-4 font-green"></i>
         <div class="text-center m-3 fs-4 farm">FRENDLY STAFF</div>
-        <span class="text-center mb-4 nova300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, id.</span>
+        <span class="text-center mb-4 nova300 fontsizer">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, id magnete.</span>
       </div>
-
       <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-3">
         <i class="fas fa-thumbs-up fa-2x m-4 font-green"></i>
         <div class="text-center m-3 fs-4 farm">RELAXING ATMOSPHERE</div>
-        <span class="text-center mb-4 nova300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, expedita.</span>
+        <span class="text-center mb-4 nova300 fontsizer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, expedita.</span>
       </div>
     </section>
     <aside class="border-grey col-6 container-fluid"></aside>
@@ -79,7 +76,6 @@
         <i class="fas fa-book-open px-2 font-green"></i>MENÜ</h2>
       <div class="container-fluid d-flex justify-content-around px-3">
         <div class="d-flex flex-column justify-content-evenly col-12 col-sm-10 col-md-8 col-lg-5 p-1">
-          
           <h4 class="farm fs-4">APPETIZERS</h4>
           <div class="d-flex justify-content-between">
             <ul class="list-unstyled nova600 fontsizer font-green">
@@ -106,7 +102,7 @@
               <li>6€</li>
             </ul>
           </div>
-          <h4 class="farm fs-4">MAIN COURSE</h4>
+          <h4 class="farm fs-4">MAIN COURSES</h4>
           <div class="d-flex justify-content-between">
             <ul class="list-unstyled nova600 fontsizer font-green">
               <li>Caprese Salad with Pesto Sauce</li>
@@ -123,7 +119,7 @@
               <li>20€</li>
             </ul>
           </div>
-          <h4 class="farm fs-4">DESSERT</h4>
+          <h4 class="farm fs-4">DESSERTS</h4>
           <div class="d-flex justify-content-between">
             <ul class="list-unstyled nova600 fontsizer font-green">
               <li>Tiramisu</li>
@@ -145,158 +141,139 @@
     <aside class="col-6 container-fluid border-grey"></aside>
     <!--RESERVATIONS-->
     <section class="container-fluid d-flex justify-content-center text-light py-5" id="reservations">
-        <!--BALOLDAL KEP KONTENER-->
-        <aside class="container-fluid d-flex flex-column justify-content-center align-items-center d-none d-lg-block col-lg-6 p-5">
-          <section class="container-fluid col-11">
-            <p class="nova300 pb-3 fs-5">"Our restaurants are open 365 days a year. Come without any booking and we will seat you as fast as possible
-              One Plate Italy, is more than a restaurant, above all it is a love story
-              that we wish to share with you!
-              An innovative spirit, keeping in mind the real values,
-              We care for the environment and respect the products,
-              Whatever your desires and your budget are,
-              an amicable and family-friendly atmosphere awaits you,
-              It is our pleasure to welcome you" - Luigia</p>
-          </section>
-          <section class="container-fluid p-1 col-8">
-            <img class="img-fluid border border-5" src="./src/assets/images/reserv-img.png" alt="drinks">
-          </section>
-        </aside>
-        <!--JOBB KONTENR-->
-        <section class="container-fluid d-flex flex-column justify-content-evenly col-md-6 text-light">
-            <div class="container-fluid d-flex justify-content-center align-items-center">
-              <h2 class="farm m-3 pb-5 text-light">
-                <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATION</h2>
-            </div>
-            <!--ÜRLAP-->
-            <form class="container-fluid d-flex flex-column justify-content-evenly align-items-center border-top border-bottom
-                        text-center col-10 col-sm-7 col-md-10 col-xl-8 px-4 pt-3 pb-5 bg-dark bg-gradient rounded needs-validation"
-                         action="https://formspree.io/f/xwkwjwna"
-                         method="POST"
-                         novalidate>
-              <img class="w-100 mb-3 border-bottom py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
-
-              <div class="mb-3 col-12 col-sm-10">
-                <label for="reservationnameinput" class="text-shadow form-label nova300 fs-5">Name</label>
-                <input type="text" class="form-control text-center" id="reservationnameinput" name="name" required>
-                <div id="reservationname" class="form-text"></div>
-              </div>
-
-              <div class="mb-3 col-10 col-sm-8 col-xl-6">
-                <label for="reservationdateinput" class="text-shadow form-label nova300 fs-5">Date</label>
-                <input type="date" class="form-control text-center" id="reservationdateinput" name="date" required>
-                <div id="reservationdate" class="form-date"></div>
-              </div>
-
-              <div class="mb-3 col-6 col-md-4">
-                <label for="reservationtimeinput" class="text-shadow form-label nova300 fs-5">Time</label>
-                <input type="time" class="form-control text-center" id="reservationtimeinput" name="time" required>
-                <div id="reservationtime" class="form-time"></div>
-              </div>
-
-              <div class="mb-3 col-6 col-xl-4">
-                <label for="reservationpersoninput" class="text-shadow form-label nova300 fs-5">Person</label>
-                <input type="number" min="0" class="form-control text-center" id="reservationpersoninput" name="person" required>
-                <div id="reservationperson" class="form-number"></div>
-              </div>
-
-              <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic checkbox toggle button group">
-                <input type="checkbox" class="btn-check" id="btncheck1">
-                <label class="btn italy-btn-green button-green nova300" for="btncheck1">Gluten-free</label>
-              
-                <input type="checkbox" class="btn-check" id="btncheck2">
-                <label class="btn italy-btn-green button-green nova300" for="btncheck2">Lactose-free</label>
-              </div>
-
-              <div class="container-fluid text-center pt-5">
-                <button class="btn italy-btn-red button-red btn-lg nova600" type="submit">RESERVE</button>
-              </div>
-            </form>
-          
+      <!--LEFT-C-->
+      <aside class="container-fluid d-flex flex-column justify-content-center align-items-center d-none d-lg-block col-lg-6 p-5">
+        <section class="container-fluid col-11">
+          <p class="nova300 pb-3 fs-5">"Our restaurants are open 365 days a year. Come without any booking and we will seat you as fast as possible
+            One Plate Italy, is more than a restaurant, above all it is a love story
+            that we wish to share with you!
+            An innovative spirit, keeping in mind the real values,
+            We care for the environment and respect the products,
+            Whatever your desires and your budget are,
+            an amicable and family-friendly atmosphere awaits you,
+            It is our pleasure to welcome you" - Luigia</p>
         </section>
+        <section class="container-fluid p-1 col-8">
+          <img class="img-fluid border border-5" src="./src/assets/images/reserv-img.png" alt="drinks">
+        </section>
+      </aside>
+      <!--RIGHT-C-->
+      <section class="container-fluid d-flex flex-column justify-content-evenly col-md-6 text-light">
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+          <h2 class="farm m-3 pb-5 text-light">
+            <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATION</h2>
+        </div>
+        <form class="container-fluid d-flex flex-column justify-content-evenly align-items-center border-top border-bottom
+                    text-center col-10 col-sm-7 col-md-10 col-xl-8 px-4 pt-3 pb-5 bg-dark bg-gradient rounded needs-validation"
+                      action="https://formspree.io/f/xwkwjwna"
+                      method="POST"
+                      novalidate>
+          <img class="w-100 mb-3 border-bottom py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
+          <div class="mb-3 col-12 col-sm-10">
+            <label for="reservationnameinput" class="text-shadow form-label nova300 fs-5">Name</label>
+            <input type="text" class="form-control text-center" id="reservationnameinput" name="name" placeholder="Carlo Gambino" required>
+            <div id="reservationname" class="form-text"></div>
+          </div>
+          <div class="mb-3 col-10 col-sm-8 col-xl-6">
+            <label for="reservationdateinput" class="text-shadow form-label nova300 fs-5">Date</label>
+            <input type="date" class="form-control text-center" id="reservationdateinput" name="date" required>
+            <div id="reservationdate" class="form-date"></div>
+          </div>
+          <div class="mb-3 col-6 col-md-4">
+            <label for="reservationtimeinput" class="text-shadow form-label nova300 fs-5">Time</label>
+            <input type="time" class="form-control text-center" id="reservationtimeinput" name="time" required>
+            <div id="reservationtime" class="form-time"></div>
+          </div>
+          <div class="mb-3 col-6 col-xl-4">
+            <label for="reservationpersoninput" class="text-shadow form-label nova300 fs-5">Person</label>
+            <input type="number" min="1" class="form-control text-center" id="reservationpersoninput" name="person" required>
+            <div id="reservationperson" class="form-number"></div>
+          </div>
+          <div class="mb-3 col-9 col-sm-8">
+            <label for="reservationcontactinput" class="text-shadow form-label nova300 fs-5">Contact Phone number</label>
+            <input type="tel" class="form-control text-center" id="reservationcontactinput" name="contact" placeholder="+39/ 123 45 67" required>
+            <div id="reservationcontact" class="form-text"></div>
+          </div>
+          <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic checkbox toggle button group">
+            <input type="checkbox" class="btn-check" id="btncheck1">
+            <label class="btn italy-btn-green btn-outline-warning button-green nova300" for="btncheck1">Gluten-free</label>
+            <input type="checkbox" class="btn-check" id="btncheck2">
+            <label class="btn italy-btn-green btn-outline-warning button-green nova300" for="btncheck2">Lactose-free</label>
+          </div>
+          <div class="container-fluid text-center pt-5">
+            <button class="btn italy-btn-red button-red btn-lg nova600" type="submit">RESERVE</button>
+          </div>
+        </form>
       </section>
-    <div class="col-6 container-fluid border-grey"></div><!--vonal-->
-
+    </section>
+    <aside class="col-6 container-fluid border-grey"></aside>
     <!--LOCATIONS-->
-    <article class="container-fluid d-flex justify-content-center align-items-center pt-5 pb-4">
+    <article class="container-fluid d-flex justify-content-center align-items-center pt-5">
       <h2 class="text-light farm m-3" id="location">
         <i class="far fas fa-map-marker-alt pe-2 font-green"></i>LOCATION</h2>
     </article>
-
     <section class="container-fluid d-flex flex-column p-2 py-3 pb-5 align-items-between text-light">
-      <!--ADRESS-->
-      <div class="container-fluid d-flex flex-column flex-md-row justify-content-evenly align-items-center p-2">
+      <section class="container-fluid d-flex flex-column justify-content-evenly align-items-center flex-md-row p-2">
         <div class="d-flex flex-column justify-content-center">
-          <p class="container-fluid text-center p-2 text-light fs-1 farm"><ins>Opening Hours:</ins></p>
-          
+          <p class="container-fluid text-center text-light nova600 fs-3 p-2">- Opening Hours -</p>
           <h4 class="container-fluid text-center text-light nova300">Monday - Sunday</h4>
           <p class="container-fluid text-center font-green nova600 fs-4">8:00am - 10:00pm</p>
           <h4 class="container-fluid text-center text-light nova300">Address:</h4>
-          <p class="container-fluid text-center font-green nova600 fs-4">9553 Bettwiesen-CH, Bahnhofstrasse 22</p>
+          <p class="container-fluid text-center font-green nova600 fs-4">9500 WIL-CH, Toggenburgerstrasse</p>
           <div class="fluid-container text-center pb-3">
-            <img class="mg-size" src="./src/assets/images/michelin-guide.png" alt="michelinguide2020"></div>
+            <img class="michelin-size" src="./src/assets/images/michelin-guide.png" alt="michelinguide2020">
+          </div>
         </div>
-        <!--TERKEP-->
-        <aside class="d-flex justify-content-center map-fixi col-md-8">
+        <aside class="d-flex justify-content-center col-md-8 g-map-fix">
           <iframe class="img-fluid p-3 map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43617.43912887246!2d9.021505865188477!3d47.453023458517386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aebd0d8ae37bd%3A0xd38e791063031e1b!2zTWNEb25hbGTigJlz!5e0!3m2!1shu!2sch!4v1614149539022!5m2!1shu!2sch"
-          width="1366" height="850" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  width="1366" height="850" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </aside>
-      </div>
+      </section>
     </section>
-
-    <div class="col-6 container-fluid border-grey"></div><!--vonal-->
-
-    <article class="container-fluid d-flex justify-content-center align-items-center">
-      <h2 class="text-light farm mt-5">
+    <aside class="col-6 container-fluid border-grey"></aside>
+    <!--CONTACT-->
+    <article class="container-fluid d-flex justify-content-center align-items-center pt-5">
+      <h2 class="text-light farm m-3">
         <i class="fas fa-users px-2 font-green"></i>CONTACT</h2>
     </article>
-    <!--PHONE AND MAIL-->
-    <div class="container-fluid d-flex flex-column flex-md-row text-light py-5">
-      <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-3">
-        <i class="fas fa-phone-alt fa-2x m-4 px-2 font-green"></i>
-        <div class="text-center m-3 fs-4 farm">PHONE</div>
-        <span class="text-center mb-4 nova300">+39/ 833 58 46</span>
+    <section class="container-fluid flex-column d-flex justify-content-center flex-md-row text-light py-5">
+      <div class="d-flex px-1 flex-column col-md-3 col justify-content-center align-items-center">
+        <i class="fas fa-phone-alt fa-2x m-4 font-green"></i>
+        <div class="text-center m-3 fs-4 farm" id="phone">PHONE</div>
+        <a class="text-center mb-4 nova300 fs-4 fontsizer font-green link-light nav-link" href="tel:+39308335846">+39/30 833 58 46</a>
       </div>
-
-      <div class="container-fluid d-flex flex-column justify-content-center align-items-center  my-1 py-3">
+      <div class="d-flex px-1 flex-column col-md-3 col order-md-2 justify-content-center align-items-center">
         <i class="fas fa-envelope fa-2x m-4 font-green"></i>
         <div class="text-center m-3 fs-4 farm">E-MAIL</div>
-        <span class="text-center mb-4 nova300">bobszinkler@icloud.com</span>
+        <a class="text-center mb-4 nova300 fs-4 fontsizer font-green link-light nav-link" href="mailto:bobszinkler@icloud.com">bobszinkler@icloud.com</a>
       </div>
-    </div>
-
-    <section class="container-fluid d-flex flex-column p-2 text-light py-5">
-      <!--PICTURE-->
-      <div class="container-fluid p-2">
-        <img class="img-fluid" src="./src/assets/images/locations.png" alt="location picture">
+      <div class="d-flex px-1 col-md-3 py-5 col order-md-1 justify-content-around align-items-center">
+        <a href="https://web.facebook.com/roland.b.szilagyi/"><i class="link-light fab fa-facebook fa-3x"></i></a>
+        <a href="https://www.instagram.com/bobszinkler/"><i class="link-light fab fa-instagram fa-3x"></i></a> 
+        <a href="https://www.twitter.com/emptylink/"><i class="link-light fab fa-twitter fa-3x"></i></a>
       </div>
-        
-        <section class="container-fluid d-flex p-2"><!--logo es fb,insta,twitter-->
-
-          <div class="d-flex col-8 col-sm-6 flex-md-row container-fluid col-md-4 justify-content-evenly align-items-center py-4">
-            <a href="https://web.facebook.com/roland.b.szilagyi/"><i class="link-light fab fa-facebook fa-2x"></i></a>
-            <a href="https://www.instagram.com/bobszinkler/"><i class="link-light fab fa-instagram fa-2x"></i></a> 
-            <a href="#"><i class="link-light fab fa-twitter fa-2x"></i></a>
-          </div>
-        </section>
-        
-        <div class="container-fluid d-flex justify-content-evenly flex-column flex-md-row col-md-10 col-xl-6 p-2">
-          <div>SUBSCRIBE OUR NEWSLETTER</div>
-          <form>
-            <label for="newsletter">
-              <input class="form-label" type="email" name="newsletter" id="newsletter" placeholder="sample@email.com" required>
-            </label>
-            <label for="newslettersubmit">
-              <input class="btn btn-warning" type="submit" value="SUBSCRIBE" id="newslettersubmit">
-            </label>
-          </form>
-        </div>
-    
     </section>
-
-    <footer class="p-4 text-center text-light bg-dark">
+    <aside class="col-6 container-fluid border-grey"></aside>
+    <!--PICTURE-->
+    <section class="container-fluid d-flex flex-column pt-5 px-0 my-3 text-light ">
+      <div class="container-fluid px-0">
+        <img class="img-fluid col-12" src="./src/assets/images/locations.png" alt="location picture">
+      </div>
+      <div class="container-fluid d-flex flex-column justify-content-evenly align-items-center p-4">
+        <div class="nova300 fontsizer">SUBSCRIBE OUR NEWSLETTER</div>
+        <form>
+          <label for="newsletter">
+            <input class="form-label" type="email" name="newsletter" id="newsletter" placeholder="sample@email.com" required>
+          </label>
+          <label for="newslettersubmit">
+            <input class="btn btn-warning nova600" type="submit" value="SUBSCRIBE" id="newslettersubmit">
+          </label>
+        </form>
+      </div>
+    </section>
+    <footer class="text-center text-light bg-dark p-3">
       <span class="pb-0 fs-6">&copy; 2021 - Roland Szilágyi &copy; All Rights Reserved</span>
     </footer>
-
     <script src="./src/js/validate.js"></script>
     <script src="./src/js/bootstrap.bundle.min.js"></script>
 </body>

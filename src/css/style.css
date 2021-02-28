@@ -1,31 +1,21 @@
-.map {
-    filter: grayscale(15%) contrast(90%);
-}
-
-/*----BACKGROUNDS----*/
-
 .main-background {
-    background: url("../assets/images/background.jpg");
+    background: url("../assets/images/background.png");
     background-size: cover;
     height: 100%;
 }
 
-.text-shadow {
-    text-shadow:1px 1px black;
-}
-
-.mg-size {
-    height: 7rem;
-}
-
 /*---COLORS---*/
+
+.border-grey {
+    border: 1px solid grey;
+}
 
 .italy-btn-green {
     border-color: rgb(116,160,0);
 }
 
 .italy-btn-green:hover {
-    background-color: rgb(116,160,0);
+    background-color: rgb(32,105,0);
     color: white;
 }
 
@@ -35,8 +25,9 @@
 }
 
 .button-green {
-    color: rgb(116,160,0);
-    border-color: rgb(116,160,0);
+    color: white;
+    border-color: white;
+    background-color: rgb(116,160,0);
 }
 
 .button-red {
@@ -48,35 +39,7 @@
     color: rgb(116,160,0);
 }
 
-.font-red {
-    color: rgb(235, 42, 0);
-}
-
-.font-yellow {
-    color: rgb(255, 221, 146);
-}
-
-.border-grey {
-    border: 1px solid grey;
-}
-
 /*----FONTS----*/
-
-.font1 {
-    font-family: "chalkduster";
-}
-
-.font2 {
-    font-family: "system-ui";
-}
-
-.font3 {
-    font-family: "amber-whiskey-aged-regular";
-}
-
-.farm {
-    font-family: charcuterie-etched, sans-serif;
-}
 
 .nova {
     font-family: regulator-nova, sans-serif;
@@ -96,18 +59,11 @@
     font-style: normal;
 }
 
-@font-face{
-    font-family: "amber-whiskey-aged-regular";
-    src: url("/src/assets/fonts/AmberWhiskey.otf");
+.farm {
+    font-family: charcuterie-etched, sans-serif;
 }
 
 /*----MEDIA Qs----*/
-
-@media (min-width: 768px) {
-    .navbar-brand {
-        display: none;
-    }
-}
 
 @media (max-width: 576px) {
     .navbar-dark,
@@ -122,11 +78,16 @@
     }
 }
 
+@media (min-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
 @media (min-width: 992px) {
     .fontsizer {
         font-size: 1.3rem;
     }
-
     .menu-fontsizer {
         font-size: 1.3rem;
     }
@@ -156,6 +117,14 @@
     border-radius: 0;
 }
 
-.map-fixi {
+.g-map-fix {
     height: 65vh;
+}
+
+.text-shadow {
+    text-shadow:1px 1px black;
+}
+
+.michelin-size {
+    height: 7rem;
 }
