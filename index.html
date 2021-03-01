@@ -71,10 +71,10 @@
     </section>
     <aside class="border-grey col-6 container-fluid"></aside>
     <!--MENÜ-->
-    <main class="container-fluid d-flex flex-column justify-content-evenly text-light py-5" id="menü">
+    <main class="container-fluid d-flex flex-column justify-content-evenly text-light pt-5 pb-4" id="menü">
       <h2 class="text-center farm m-3 pb-5">
         <i class="fas fa-book-open px-2 font-green"></i>MENÜ</h2>
-      <div class="container-fluid d-flex justify-content-around px-3">
+      <div class="container-fluid d-flex flex-colum justify-content-around px-3">
         <div class="d-flex flex-column justify-content-evenly col-12 col-sm-10 col-md-8 col-lg-5 p-1">
           <h4 class="farm fs-4">APPETIZERS</h4>
           <div class="d-flex justify-content-between">
@@ -134,19 +134,21 @@
           </div>
         </div>
         <div class="d-flex flex-column align-self-center d-none d-lg-block col-lg-5">
-          <img class="img-fluid p-1" src="./src/assets/images/menu-img.png" alt="menu-table">
+          <img class="img-fluid px-1 py-5" src="./src/assets/images/menu-img_v.png" alt="menu-table">
         </div>
       </div>
     </main>
+    <section class="d-lg-none">
+      <img class="img-fluid pb-5" src="./src/assets/images/menu-img_h.png" alt="menu-table">
+    </section>
     <aside class="col-6 container-fluid border-grey"></aside>
     <!--RESERVATIONS-->
-    <section class="container-fluid d-flex justify-content-center text-light py-5" id="reservations">
+    <section class="container-fluid d-flex justify-content-center align-items-center text-light py-5" id="reservations">
       <!--LEFT-C-->
-      <aside class="container-fluid d-flex flex-column justify-content-center align-items-center d-none d-lg-block col-lg-6 p-5">
+      <aside class="container-fluid d-flex flex-column justify-content-center align-items-evenly d-none d-md-block d-lg-block col-lg-6 ps-3 pe-3 pb-3">
         <section class="container-fluid col-11">
           <p class="nova300 pb-3 fs-5">"Our restaurants are open 365 days a year. Come without any booking and we will seat you as fast as possible
-            One Plate Italy, is more than a restaurant, above all it is a love story
-            that we wish to share with you!
+            One Plate Italy, is more than a restaurant!
             An innovative spirit, keeping in mind the real values,
             We care for the environment and respect the products,
             Whatever your desires and your budget are,
@@ -154,24 +156,24 @@
             It is our pleasure to welcome you" - Luigia</p>
         </section>
         <section class="container-fluid p-1 col-8">
-          <img class="img-fluid border border-5" src="./src/assets/images/reserv-img.png" alt="drinks">
+          <img class="img-fluid border border-5" src="./src/assets/images/reserv-img.jpg" alt="drinks">
         </section>
       </aside>
       <!--RIGHT-C-->
-      <section class="container-fluid d-flex flex-column justify-content-evenly col-md-6 text-light">
+      <section class="container-fluid d-flex flex-column justify-content-evenly align-items-center col-md-6 text-light pb-3">
         <div class="container-fluid d-flex justify-content-center align-items-center">
           <h2 class="farm m-3 pb-5 text-light">
             <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATION</h2>
         </div>
         <form class="container-fluid d-flex flex-column justify-content-evenly align-items-center border-top border-bottom
-                    text-center col-10 col-sm-7 col-md-10 col-xl-8 px-4 pt-3 pb-5 bg-dark bg-gradient rounded needs-validation"
+                    text-center m-0 col-10 col-sm-7 col-md-10 col-xl-8 px-4 pt-3 pb-5 bg-dark bg-gradient rounded needs-validation"
                       action="https://formspree.io/f/xwkwjwna"
                       method="POST"
                       novalidate>
           <img class="w-100 mb-3 border-bottom py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
           <div class="mb-3 col-12 col-sm-10">
             <label for="reservationnameinput" class="text-shadow form-label nova300 fs-5">Name</label>
-            <input type="text" class="form-control text-center" id="reservationnameinput" name="name" placeholder="Carlo Gambino" required>
+            <input type="text" class="form-control text-center" id="reservationnameinput" name="name" required>
             <div id="reservationname" class="form-text"></div>
           </div>
           <div class="mb-3 col-10 col-sm-8 col-xl-6">
@@ -191,7 +193,7 @@
           </div>
           <div class="mb-3 col-9 col-sm-8">
             <label for="reservationcontactinput" class="text-shadow form-label nova300 fs-5">Contact Phone number</label>
-            <input type="tel" class="form-control text-center" id="reservationcontactinput" name="contact" placeholder="+39/ 123 45 67" required>
+            <input type="tel" class="form-control text-center" id="reservationcontactinput" name="contact" placeholder="30/ 123 45 67" required>
             <div id="reservationcontact" class="form-text"></div>
           </div>
           <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic checkbox toggle button group">
@@ -219,14 +221,14 @@
           <h4 class="container-fluid text-center text-light nova300">Monday - Sunday</h4>
           <p class="container-fluid text-center font-green nova600 fs-4">8:00am - 10:00pm</p>
           <h4 class="container-fluid text-center text-light nova300">Address:</h4>
-          <p class="container-fluid text-center font-green nova600 fs-4">9500 WIL-CH, Toggenburgerstrasse</p>
+          <p class="container-fluid text-center font-green nova600 fs-4">Via Don L. Sturzo, Carini-PA</p>
           <div class="fluid-container text-center pb-3">
             <img class="michelin-size" src="./src/assets/images/michelin-guide.png" alt="michelinguide2020">
           </div>
         </div>
         <aside class="d-flex justify-content-center col-md-8 g-map-fix">
-          <iframe class="img-fluid p-3 map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43617.43912887246!2d9.021505865188477!3d47.453023458517386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aebd0d8ae37bd%3A0xd38e791063031e1b!2zTWNEb25hbGTigJlz!5e0!3m2!1shu!2sch!4v1614149539022!5m2!1shu!2sch"
-                  width="1366" height="850" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe class="img-fluid p-3 map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d802971.1347592484!2d13.2162344!3d38.1725955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdcd3543bd0dc3d6f!2sMcDonald&#39;s!5e0!3m2!1shu!2sch!4v1614594159750!5m2!1shu!2sch"
+          width="1366" height="850" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </aside>
       </section>
     </section>
@@ -257,7 +259,7 @@
     <!--PICTURE-->
     <section class="container-fluid d-flex flex-column pt-5 px-0 my-3 text-light ">
       <div class="container-fluid px-0">
-        <img class="img-fluid col-12" src="./src/assets/images/locations.png" alt="location picture">
+        <img class="img-fluid col-12" src="./src/assets/images/locations.jpg" alt="location picture">
       </div>
       <div class="container-fluid d-flex flex-column justify-content-evenly align-items-center p-4">
         <div class="nova300 fontsizer">SUBSCRIBE OUR NEWSLETTER</div>

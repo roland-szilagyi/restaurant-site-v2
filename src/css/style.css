@@ -16,6 +16,7 @@
 
 .italy-btn-green:hover {
     background-color: rgb(32,105,0);
+    border-color: rgb(32,105,0);
     color: white;
 }
 
@@ -26,7 +27,6 @@
 
 .button-green {
     color: white;
-    border-color: white;
     background-color: rgb(116,160,0);
 }
 
