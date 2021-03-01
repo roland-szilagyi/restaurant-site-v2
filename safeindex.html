@@ -1,0 +1,49 @@
+<section class="container-fluid d-flex flex-column justify-content-evenly align-items-center col-md-6 text-light pb-3">
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+      <h2 class="farm m-3 pb-5 text-light">
+        <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATION</h2>
+    </div>
+    <form class="container-fluid d-flex flex-column justify-content-evenly align-items-center border-top border-bottom
+                text-center m-0 col-10 col-sm-7 col-md-10 col-xl-8 px-4 pt-3 pb-5 bg-dark bg-gradient rounded needs-validation"
+                  action="https://formspree.io/f/xwkwjwna"
+                  method="POST"
+                  novalidate>
+      <img class="w-100 mb-3 border-bottom py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
+      <div class="mb-3 col-12 col-sm-10">
+        <label for="reservationnameinput" class="text-shadow form-label nova300 fs-5">Name</label>
+        <input type="text" class="form-control text-center" id="reservationnameinput" name="name" required>
+        <div id="reservationname" class="form-text"></div>
+      </div>
+      <div class="mb-3 col-10 col-sm-8 col-xl-6">
+        <label for="reservationdateinput" class="text-shadow form-label nova300 fs-5">Date</label>
+        <input type="date" class="form-control text-center" id="reservationdateinput" name="date" required>
+        <div id="reservationdate" class="form-date"></div>
+      </div>
+      <div class="mb-3 col-6 col-md-4">
+        <label for="reservationtimeinput" class="text-shadow form-label nova300 fs-5">Time</label>
+        <input type="time" class="form-control text-center" id="reservationtimeinput" name="time" required>
+        <div id="reservationtime" class="form-time"></div>
+      </div>
+      <div class="mb-3 col-6 col-xl-4">
+        <label for="reservationpersoninput" class="text-shadow form-label nova300 fs-5">Person</label>
+        <input type="number" min="1" class="form-control text-center" id="reservationpersoninput" name="person" required>
+        <div id="reservationperson" class="form-number"></div>
+      </div>
+      <div class="mb-3 col-9 col-sm-8">
+        <label for="reservationcontactinput" class="text-shadow form-label nova300 fs-5">Contact Phone number</label>
+        <input type="tel" class="form-control text-center" id="reservationcontactinput" name="contact" placeholder="30/ 123 45 67" required>
+        <div id="reservationcontact" class="form-text"></div>
+      </div>
+      <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic checkbox toggle button group">
+        <input type="checkbox" class="btn-check" id="btncheck1">
+        <label class="btn italy-btn-green btn-outline-warning button-green nova300" for="btncheck1">Gluten-free</label>
+        <input type="checkbox" class="btn-check" id="btncheck2">
+        <label class="btn italy-btn-green btn-outline-warning button-green nova300" for="btncheck2">Lactose-free</label>
+      </div>
+      <div class="container-fluid text-center pt-5">
+        <button class="btn italy-btn-red button-red btn-lg nova600" type="submit">RESERVE</button>
+      </div>
+    </form>
+  </section>
+</section>
+<aside class="col-6 container-fluid border-grey"></aside>
