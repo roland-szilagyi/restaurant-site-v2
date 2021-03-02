@@ -69,7 +69,7 @@
 
 /*----MEDIA Qs----*/
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .navbar-dark,
     .navbar-toggler {
         border-color: rgba(255,255,255,0)!important
@@ -85,6 +85,9 @@
 @media (min-width: 768px) {
     .navbar-brand {
         display: none;
+    }
+    .nav-static {
+        position: static;
     }
 }
 

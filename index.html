@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="https://use.typekit.net/pbr1vco.css">
 </head>
 <body class="main-background">
-    <header>
+    <header class="sticky-top md-static nav-static">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <section class="container-fluid mx-1">
-                <a class="navbar-brand mx-2 fs-6 nova300" id="nav-menü" href="#menü">MENÜ</a>
+                <a class="navbar-brand mx-2 fs-6 nova300" id="nav-menü" href="#menü">MENU</a>
                 <img class="w-50 d-md-none py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
                   <button class="navbar-toggler fs-6 mx-2" type="button" data-bs-toggle="collapse" 
                           data-bs-target="#navbarNavAltMarkup" 
@@ -28,10 +28,10 @@
                     <a class="nav-link nova300 menu-fontsizer" aria-current="page" href="#reservations">
                       <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATIONS</a>
                     <a class="nav-link nova300 menu-fontsizer" href="#menü">
-                      <i class="fas fa-book-open px-2 font-green"></i>MENÜ</a>
+                      <i class="fas fa-book-open px-2 font-green"></i>MENU</a>
                     <img class="w-25 d-none d-md-block py-2" src="./src/assets/images/logo.png" alt="restaurantlogo">
                     <a class="nav-link nova300 menu-fontsizer active" href="#phone">
-                      <i class="fas fa-phone-alt px-2 font-green"></i>+39/ 833 58 46</a>
+                      <i class="fas fa-users px-2 font-green"></i>CONTACT</a>
                     <a class="nav-link nova300 menu-fontsizer" href="#location">
                       <i class="fas fa-map-marker-alt px-2 font-green"></i>LOCATIONS</a>
                   </div>
@@ -73,7 +73,7 @@
     <!--MENÜ-->
     <main class="container-fluid d-flex flex-column justify-content-evenly text-light pt-5 pb-4" id="menü">
       <h2 class="text-center farm m-3 pb-5">
-        <i class="fas fa-book-open px-2 font-green"></i>MENÜ</h2>
+        <i class="fas fa-book-open px-2 font-green"></i>MENU</h2>
       <div class="container-fluid d-flex flex-colum justify-content-around px-3">
         <div class="d-flex flex-column justify-content-evenly col-12 col-sm-10 col-md-8 col-lg-5 p-1">
           <h4 class="farm fs-4">APPETIZERS</h4>
@@ -147,13 +147,13 @@
       <!--LEFT-C-->
       <aside class="container-fluid d-flex flex-column justify-content-center align-items-evenly d-none d-md-block d-lg-block col-lg-6 ps-3 pe-3 pb-3">
         <section class="container-fluid col-11">
-          <p class="nova300 pb-3 fs-5">"Our restaurants are open 365 days a year. Come without any booking and we will seat you as fast as possible
+          <p class="nova300 pb-3 fs-5"><em>"Our restaurants are open 365 days a year. Come without any booking and we will seat you as fast as possible
             One Plate Italy, is more than a restaurant!
             An innovative spirit, keeping in mind the real values,
             We care for the environment and respect the products,
             Whatever your desires and your budget are,
             an amicable and family-friendly atmosphere awaits you,
-            It is our pleasure to welcome you" - Luigia</p>
+            It is our pleasure to welcome you" - Giuseppe</em></p>
         </section>
         <section class="container-fluid p-1 col-8">
           <img class="img-fluid border border-5" src="./src/assets/images/reserv-img.jpg" alt="drinks">
@@ -163,7 +163,7 @@
       <section class="container-fluid d-flex flex-column justify-content-evenly align-items-center col-md-6 text-light pb-3">
         <div class="container-fluid d-flex justify-content-center align-items-center">
           <h2 class="farm m-3 pb-5 text-light">
-            <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATION</h2>
+            <i class="far fa-calendar-alt px-2 font-green"></i>RESERVATIONS</h2>
         </div>
         <form class="container-fluid d-flex flex-column justify-content-evenly align-items-center border-top border-bottom
                     text-center m-0 col-10 col-sm-7 col-md-10 col-xl-8 px-4 pt-3 pb-5 bg-dark bg-gradient rounded needs-validation"
@@ -217,7 +217,7 @@
     <section class="container-fluid d-flex flex-column p-2 py-3 pb-5 align-items-between text-light">
       <section class="container-fluid d-flex flex-column justify-content-evenly align-items-center flex-md-row p-2">
         <div class="d-flex flex-column justify-content-center">
-          <p class="container-fluid text-center text-light nova600 fs-3 p-2">- Opening Hours -</p>
+          <p class="container-fluid text-center text-light nova600 fs-3 p-2">- OPENING HOURS -</p>
           <h4 class="container-fluid text-center text-light nova300">Monday - Sunday</h4>
           <p class="container-fluid text-center font-green nova600 fs-4">8:00am - 10:00pm</p>
           <h4 class="container-fluid text-center text-light nova300">Address:</h4>
@@ -238,21 +238,21 @@
       <h2 class="text-light farm m-3">
         <i class="fas fa-users px-2 font-green"></i>CONTACT</h2>
     </article>
-    <section class="container-fluid flex-column d-flex justify-content-center flex-md-row text-light py-5">
-      <div class="d-flex px-1 flex-column col-md-3 col justify-content-center align-items-center">
+    <section class="container-fluid d-flex flex-column justify-content-centet align-items-center flex-md-row text-light py-5">
+      <div class="d-flex px-1 flex-column col justify-content-center align-items-center">
         <i class="fas fa-phone-alt fa-2x m-4 font-green"></i>
-        <div class="text-center m-3 fs-4 farm" id="phone">PHONE</div>
+        <div class="text-center m-3 fs-3 nova600" id="phone">- PHONE -</div>
         <a class="text-center mb-4 nova300 fs-4 fontsizer font-green link-light nav-link" href="tel:+39308335846">+39/30 833 58 46</a>
       </div>
-      <div class="d-flex px-1 flex-column col-md-3 col order-md-2 justify-content-center align-items-center">
+      <div class="d-flex px-1 flex-column col order-md-2 justify-content-center align-items-center">
         <i class="fas fa-envelope fa-2x m-4 font-green"></i>
-        <div class="text-center m-3 fs-4 farm">E-MAIL</div>
-        <a class="text-center mb-4 nova300 fs-4 fontsizer font-green link-light nav-link" href="mailto:bobszinkler@icloud.com">bobszinkler@icloud.com</a>
+        <div class="text-center m-3 fs-3 nova600">- EMAIL -</div>
+        <a class="text-center mb-4 nova300 fs-4 fontsizer font-green link-light nav-link" href="mailto:rolandszilagyi@icloud.com">rolandszilagyi @icloud.com</a>
       </div>
-      <div class="d-flex px-1 col-md-3 py-5 col order-md-1 justify-content-around align-items-center">
-        <a href="https://web.facebook.com/roland.b.szilagyi/"><i class="link-light fab fa-facebook color-yellow fa-3x"></i></a>
-        <a href="https://www.instagram.com/bobszinkler/"><i class="link-light fab fa-instagram color-yellow fa-3x"></i></a> 
-        <a href="https://www.twitter.com/emptylink/"><i class="link-light fab fa-twitter color-yellow fa-3x"></i></a>
+      <div class="d-flex px-1 py-5 col order-md-1 justify-content-around align-items-center">
+        <a href="https://web.facebook.com/roland.b.szilagyi/"><i class="link-light fab fa-facebook color-yellow fa-3x me-4"></i></a>
+        <a href="https://www.instagram.com/bobszinkler/"><i class="link-light fab fa-instagram color-yellow fa-3x mx-4"></i></a> 
+        <a href="https://www.twitter.com/emptylink/"><i class="link-light fab fa-twitter color-yellow fa-3x ms-4"></i></a>
       </div>
     </section>
     <aside class="col-6 container-fluid border-grey"></aside>
@@ -261,14 +261,12 @@
       <div class="container-fluid px-0">
         <img class="img-fluid col-12" src="./src/assets/images/locations.jpg" alt="location picture">
       </div>
-      <div class="container-fluid d-flex flex-column justify-content-evenly align-items-center p-4">
-        <div class="nova300 fontsizer">SUBSCRIBE OUR NEWSLETTER</div>
-        <form>
-          <label for="newsletter">
-            <input class="form-label" type="email" name="newsletter" id="newsletter" placeholder="sample@email.com" required>
-          </label>
-          <label for="newslettersubmit">
-            <input class="btn btn-warning nova600" type="submit" value="SUBSCRIBE" id="newslettersubmit">
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-center p-4">
+        <div class="nova300 fs-4 fontsizer">SUBSCRIBE TO OUR NEWSLETTER</div>
+        <form class="d-flex">
+          <label class="input-group my-3">
+            <input type="text" class="form-control p-2 me-3 nova600" placeholder="sample@email.com" aria-label="email address" aria-describedby="button-addon2">
+            <button class="btn btn-sm btn-warning px-3" type="button" id="button-addon2">SUBSCRIBE</button>
           </label>
         </form>
       </div>
