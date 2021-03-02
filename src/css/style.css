@@ -6,33 +6,26 @@
 
 /*---COLORS---*/
 
-.border-grey {
-    border: 1px solid grey;
-}
-
-.italy-btn-green {
+.button-green {
+    color: white;
+    background-color: rgb(116,160,0);
     border-color: rgb(116,160,0);
 }
 
-.italy-btn-green:hover {
+.button-green:hover {
     background-color: rgb(116,180,0);
     border-color: rgb(116,180,0);
     color: white;
 }
 
-.italy-btn-red:hover {
-    background-color: rgb(116,160,0);
-    color: white;
-}
-
-.button-green {
-    color: white;
-    background-color: rgb(116,160,0);
-}
-
 .button-red {
     color: white;
     background-color: rgb(180, 42, 0);
+}
+
+.button-red:hover {
+    background-color: rgb(116,160,0);
+    color: white;
 }
 
 .font-green {
@@ -43,7 +36,7 @@
     color: rgb(255,193,7);
 }
 
-/*----FONTS----*/
+/*---FONTS---*/
 
 .nova {
     font-family: regulator-nova, sans-serif;
@@ -67,7 +60,7 @@
     font-family: charcuterie-etched, sans-serif;
 }
 
-/*----MEDIA Qs----*/
+/*---MEDIA Qs---*/
 
 @media (max-width: 768px) {
     .navbar-dark,
@@ -119,19 +112,6 @@
     align-items: center;
     justify-content: center;
 }
-
-.btn {
-    border-radius: 0;
-}
-
-.g-map-fix {
-    height: 65vh;
-}
-
 .text-shadow {
     text-shadow:1px 1px black;
-}
-
-.michelin-size {
-    height: 7rem;
 }
